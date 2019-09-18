@@ -6,7 +6,7 @@
 * The research questions we plan to focus on and why they matter: **Vishekha, Nishi, Vincent and Malik** 
 * The study organism or phenomenon: **Vincent**
 * The kind of decisions, interventions, or actions that analysis:**Vishekha, Nishi, Vincent and Malik** 
-> Proof Reader Vincent   <Due Date for Team: 2nd October
+> Proof Reader Vincent   ;Due Date for Team: 2nd October
 
 
 ### Audience Profiling - Vishekha + Nishi 
@@ -24,4 +24,8 @@
 ### Project Presentation - Vishekha,Nishi,Vincent and Malik 
 > ProofReader: Vincent   ;Due Date for Team: 8th December,2019
 
+### Tool Used For Communication Among Team Members
+* Slack
 
+### Group Meeting Details
+* In person meeting every Thursday after class
