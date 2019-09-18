@@ -1,5 +1,6 @@
+### Project Team Details
 * Team: **Data Wizards** 
-* Students: **Vishekha Tamrakar**, **Nishi Mahato**, **Vincent Ha**, **Malik Alzarah**
+* Students: **Vishekha Tamrakar**, **Nishi Mahato**, **Vincent Ha** **and** **Malik Alzarah**
 * Class: **ISQA8086 Special Topics**
 * Repository License Type: **GNU General Public License v3.0** [Refer to License file within repository for more information](https://github.com/datawizard8086/DW8086/blob/master/LICENSE)
 
