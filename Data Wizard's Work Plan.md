@@ -10,18 +10,18 @@
 
 
 ### Audience Profiling - Vishekha + Nishi 
-> Proofreader: Vincent   * Due Date for Team: 16th October,2019
+> Proofreader: Vincent   ;Due Date for Team: 16th October,2019
 
 ### Data Cleaning - Vishekha,Nishi,Vincent and Malik
-> Proofreader: Vincent   Due Date for Team: 21st October,2019
+> Proofreader: Vincent   ;Due Date for Team: 21st October,2019
 
 ### R Script - Vishekha,Nishi,Vincent and Malik
-> Proofreader: Vincent   Due Date for Team: 4th November,2019
+> Proofreader: Vincent   ;Due Date for Team: 4th November,2019
 
 ### R Plots - Vishekha,Nishi,Vincent and Malik
-> Proofreader: Vincent   Due Date for Team: 11th November,2019
+> Proofreader: Vincent   ;Due Date for Team: 11th November,2019
 
 ### Project Presentation - Vishekha,Nishi,Vincent and Malik 
-> Proofreader: Vincent   Due Date for Team: 8th December,2019
+> Proofreader: Vincent   ;Due Date for Team: 8th December,2019
 
 
