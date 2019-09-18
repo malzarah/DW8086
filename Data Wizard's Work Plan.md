@@ -29,5 +29,5 @@
 > 2 hours time frame to wait for a member to repond to messages posted on slack else call the required person
 
 ### Group Meeting Details
-* In person meeting every Thursday after class
->If skipped any meeting on thursday, shall meet over ZOOM on the same weekend. 
+* In person meeting every Thursday after class.
+>If any Thursday after class meeting is cancelled, group shall meet over ZOOM on the weekend.
