@@ -1,5 +1,5 @@
 
-## Project Effort Allocation 
+## Project Work Plan
 
 ### Background Research & RQ
 * The client's organization and its mission and goals: **Vishekha**
