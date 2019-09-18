@@ -26,6 +26,8 @@
 
 ### Tool Used For Communication Among Team Members
 * Slack
+> 2 hours time frame to wait for a member to repond to messages posted on slack else call the required person
 
 ### Group Meeting Details
 * In person meeting every Thursday after class
+>If skipped any meeting on thursday, shall meet over ZOOM on the same weekend. 
