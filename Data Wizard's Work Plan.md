@@ -9,7 +9,7 @@
 > Proof Reader Vincent   ; Due Date for Team: 2nd October
 
 
-### Audience Profiling - Vishekha + Nishi 
+### Audience Profiling - Vincent + Nishi 
 > ProofReader: Vincent   ; Due Date for Team: 16th October,2019
 
 ### Data Cleaning - Vishekha,Nishi,Vincent and Malik
