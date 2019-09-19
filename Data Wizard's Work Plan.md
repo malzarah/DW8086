@@ -5,7 +5,7 @@
 * The client's organization and its mission and goals: **Vishekha**
 * The research questions we plan to focus on and why they matter: **Vishekha, Nishi, Vincent and Malik** 
 * The study organism or phenomenon: **Vincent**
-* The kind of decisions, interventions, or actions that analysis: **Vishekha, Nishi, Vincent and Malik** 
+* The kind of decisions, interventions, or actions that analysis results could support: **Vishekha, Nishi, Vincent and Malik** 
 > Proofreader Vincent   ; Team Due Date: 2nd October
 
 
