@@ -26,7 +26,7 @@
 
 ### Tool Used for Communication Among Team Members
 * Slack
-> Each member has two hours time frame to respond when get tagged in Slack. After two hours with no reply, one of the team members will give he/she a call.
+> Each member has two hours' time frame to respond when get tagged in Slack. After two hours with no reply, one of the team member will give he/she a call.
 
 ### Group Meeting Details
 * In person meeting every Thursday after class.
