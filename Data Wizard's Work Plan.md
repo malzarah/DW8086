@@ -10,7 +10,7 @@
 
 
 ### Audience Profiling - Vincent and Nishi 
-> ProofReader: Vincent   ; Due Date for Team: 16th October,2019
+> ProofReader: Vishekha   ; Due Date for Team: 16th October,2019
 
 ### Data Cleaning - Vishekha,Nishi,Vincent and Malik
 > ProofReader: Vincent   ; Due Date for Team: 21st October,2019
@@ -22,7 +22,7 @@
 > ProofReader: Vincent   ; Due Date for Team: 11th November,2019
 
 ### Project Presentation - Vincent and Malik 
-> ProofReader: Vincent   ; Due Date for Team: 8th December,2019
+> ProofReader: Vishekha   ; Due Date for Team: 8th December,2019
 
 ### Tool Used For Communication Among Team Members
 * Slack
