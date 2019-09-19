@@ -30,4 +30,4 @@
 
 ### Group Meeting Details
 * In person meeting every Thursday after class.
->In case Thursday class gets canceled, the team will meet over ZOOM in the weekend.
+>In case Thursday meeting gets canceled, the team will meet over ZOOM in the weekend.
