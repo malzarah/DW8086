@@ -1,4 +1,4 @@
-#Homestead National Monument
+# Homestead National Monument
 ## Project Work Plan
 
 ### Background Research & RQ
