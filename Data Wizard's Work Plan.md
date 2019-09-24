@@ -93,12 +93,12 @@ Submit GIT Repository Package  |       Vincent                | December 12th |
 
 ### _**Contributorship Statement**_
 
-Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan Documentation. 
+Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan task. 
 
 
 ### Tool Used for Communication Among Team Members
 * Slack
-> Each member has two hours' time frame to respond when get tagged in Slack. After two hours with no reply, one of the team member will give he/she a call.
+> Each member has two hours' time frame to respond when get tagged in Slack. After two hours with no reply, one of the team member will give he/she a call.Exception: If a message is dropped late evening after 8:00pm then the individual posting the message shall wait untill next day noon for a response from other team members.
 
 
 ### Group Meeting Details
