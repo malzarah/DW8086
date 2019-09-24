@@ -9,11 +9,11 @@ The workplan below provides details of what task will be done by which team memb
  **Tasks**	                      |**Contributor**   |**Completion Date** |
 |-------------------------------------|:----------------:|---------------|
 |Client Organization’s Mission & Goals|    Vishekha              |  September 30th           |		
-|The Research Questions we planning to Focus on why they matter    |Team|  September 30th    |	
+|The Research Questions |Team|  September 30th    |	
 |The Study organism or phenomenon	      |    Vincent              |  September 30th            |	
 |Decisions, actions and/or Interventions that analysis results could support|Team| October 1st|	
-|Create Markdown Document for the Deliverable and push it to git  |Vincent | October 2nd              |		
-|Submit Markdown Document URL for the Deliverable on Canvas  |Vincent | October 2nd              |		
+|Create Markdown document for the deliverable and push it to git  |Vincent | October 2nd              |		
+|Submit Markdown document URL for the deliverable on Canvas  |Vincent | October 2nd              |		
 |Proofreader                  |    Vishekha              | October 2nd             |
 
 
@@ -21,9 +21,9 @@ The workplan below provides details of what task will be done by which team memb
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
 |Research Audience Profile             |  Nishi/Vincent               |   October 11th            |		
-|Identify target Audience	       |   Nishi/Vincent              |    October 12th           |
-|Create Audience Profile Markdown Document for the Deliverable and push it to Git   |    Nishi              |  October 14th|
-|Submit Audience Profile Deliverable URL on Canvas|    Nishi              |  October 14th             |
+|Identify Target Audience	       |   Nishi/Vincent              |    October 12th           |
+|Create Audience Profile Markdown document for the deliverable and push it to Git   |    Nishi              |  October 14th|
+|Submit Audience Profile deliverable URL on Canvas|    Nishi              |  October 14th             |
 |Proofreader	       |    Malik              |     October 15th          |
 
 
@@ -31,14 +31,14 @@ The workplan below provides details of what task will be done by which team memb
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
 |Data Source Text Description                      |    Malik              |      October 18th         |		
-|Identifying Intellectual property constraints|	Nishi |October 17th|	
+|Identifying Intellectual Property Constraints|	Nishi |October 17th|	
 |Description of Dataset		| Vishekha            | October 17th  |
-|Identifying issues with data set	| Vincent and Malik	| October 20th |
+|Identifying issues with Dataset	| Vincent and Malik	| October 20th |
 |Documenting steps taken to remediate data	| Vincent and Malik | October 20th|
 |Documenting Data Cleaning process| Vincent and Malik | October 21st |		
-|Data Cleaning Contributors statements	|Team	          | October 22nd              |
-|Create Data Cleaning Markdown Document for the Deliverable and push it to Git| Vishekha                |October 23rd|
-|Submit Data Cleaning Deliverable URL on Canvas |    Vishekha              |  October 23rd             	
+|Data Cleaning Contributor statement	|Team	          | October 22nd              |
+|Create Data Cleaning Markdown document for the deliverable and push it to Git| Vishekha                |October 23rd|
+|Submit Data Cleaning deliverable URL on Canvas |    Vishekha              |  October 23rd             	
 |Proofreader		| Nishi | October 23rd |
 
 
@@ -48,9 +48,9 @@ The workplan below provides details of what task will be done by which team memb
 |R script agenda|  Team           | October 26th|
 |Create R Script		|  Team              |   November 3rd |	
 |Create full description of the R Script	|	Team  | November 4th |
-|R Script Contributors statements	|Team	| November 5th|
-|Create R Script Deliverable and push it to Git           |   Vincent                |November 6th |
-|Submit R Script Deliverable URL on Canvas            |   Vincent                |November 6th |
+|R Script Contributor statement	|Team	| November 5th|
+|Create R Script document for deliverable and push it to Git           |   Vincent                |November 6th |
+|Submit R Script deliverable URL on Canvas            |   Vincent                |November 6th |
 |R Script Proofreader	| Malik  | November 6th |
 
 
@@ -61,8 +61,8 @@ The workplan below provides details of what task will be done by which team memb
 |Create R Plots		| Team |    November 10th |
 |Create full description of the R Plots script |   Team               |   November 12th            |
 |R Plots Contributors statements	               |Team	| November 13th |
-|Create R Plot Deliverable document and push it to Git |   Malik/Nishi                | November 13th |
-|Submit R Plot Deliverable URL on Canvas                    |   Malik/Nishi                | November 13th |
+|Create R Plot deliverable document and push it to Git |   Malik/Nishi                | November 13th |
+|Submit R Plot deliverable URL on Canvas                    |   Malik/Nishi                | November 13th |
 |R Plots Proofreader	|Vishekha | November 13th |
 
 
@@ -71,9 +71,9 @@ The workplan below provides details of what task will be done by which team memb
 |--------------------------------------|:----------------:|---------------|
 |Presentation agenda     |    Team              |   December 1st            |		
 |Create presentation deck	| Vishekha        | December 2nd |	
-|Presentation Contributors statements	|Team	   | December 11th|
+|Presentation Contributor statement	|Team	   | December 11th|
 |Presentation Proofreader   | Vincent | December 11th |
-|Presenation Deliverable| Nishi| December 11th|
+|Presenation deliverable| Nishi| December 11th|
 |Project Presentation                   |    Team               | December 12th |
 
 
@@ -89,7 +89,7 @@ The workplan below provides details of what task will be done by which team memb
 |Review components of GIT Package     |Team		|December 9th |
 |Update readme.md		 | Nishi   | December 10th |
 |Create GIT Package		| Vincent |December 11th |
-|Project Contributors statements	       |Team	| December 11th |
+|Project Contributor statement       |Team	| December 11th |
 |Project readme.md Proofreader	  |Vishekha    |December 11th |
 |Submit GIT Repository Package  |       Vincent                | December 12th |
 
