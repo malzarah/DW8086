@@ -1,6 +1,6 @@
 # Project Name: Homestead National Monument
 ## Project Work Plan
-
+The workplan below provides details of what task will be done by which team member and deadline set for each deliverable.
 ### Background Research & RQ
  **Tasks**	                      |**Contributor**   |**Completion Date**|
 |-------------------------------------|:----------------:|---------------|
