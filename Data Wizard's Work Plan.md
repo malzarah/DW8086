@@ -17,8 +17,9 @@ The workplan below provides details of what task will be done by which team memb
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
 |Research Audience Profile             |  Nishi/Vincent               |   October 11th            |		
-|Identify target Audience	       |   Nishi/Vincent              |    October 11th           |
+|Identify target Audience	       |   Nishi/Vincent              |    October 12th           |
 |Create Audience Profile Markdown Document for the Deliverable    |    Nishi              |  October 14th             |		
+|Submit Audience Profile Markdown Document for the Deliverable    |    Nishi              |  October 14th             |	
 |Proofreader	       |    Malik              |     October 15th          |
 
 
@@ -32,7 +33,8 @@ Identifying issues with data set	| Vincent and Malik	| October 20th |
 Documenting steps taken to remediate data	| Vincent and Malik | October 20th|
 Documenting Data Cleaning process| Vincent and Malik | October 21st |		
 Data Cleaning Contributors statements	|Team	          | October 22nd              |
-Create Audience Profile Markdown Document for the Deliverable | Vishekha                |October 23rd|
+Create Data Cleaning Markdown Document for the Deliverable | Vishekha                |October 23rd|
+|Submit Data Cleaning Markdown Document for the Deliverable    |    Vishekha              |  October 23rd             |	
 Proofreader		| Nishi | October 23rd |
 
 ### R Script - Vishekha, Nishi, Vincent and Malik
