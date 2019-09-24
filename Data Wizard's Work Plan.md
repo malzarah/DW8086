@@ -1,23 +1,39 @@
 # Project Name: Homestead National Monument
 ## Project Work Plan
-The workplan below provides details of what task will be done by which team member and deadline set for each deliverable.
+The workplan below provides details of what task will be done by which team member within the deadline set for each deliverable.
 ### Background Research & RQ
  **Tasks**	                      |**Contributor**   |**Completion Date**|
 |-------------------------------------|:----------------:|---------------|
-|Client Organization’s Mission & Goals|    Vishekha              |  September 29th           |		
-|The Research Questions we planning to Focus on why they matter    |Vishekha, Nishi, Vincent and Malik |  September 29th    |	
-|The Study organism or phenomenon	      |    Vincent              |  September 29th            |	
+|Client Organization’s Mission & Goals|    Vishekha              |  September 30th           |		
+|The Research Questions we planning to Focus on why they matter    |Vishekha, Nishi, Vincent and Malik |  September 30th    |	
+|The Study organism or phenomenon	      |    Vincent              |  September 30th            |	
 |Decisions, actions and/or Interventions that analysis results could support|Vishekha, Nishi, Vincent and Malik| October 1st|	
-|Markdown Document Deliverable   |Vincent | October 2nd              |		
-| Proofreader                  |    Vishekha              | October 2nd             |
+|Create Markdown Document for the Deliverable   |Vincent | October 2nd              |		
+|Proofreader                  |    Vishekha              | October 2nd             |
 
 
 
 ### Audience Profiling - Vincent and Nishi 
-> Proofreader: Vishekha   ; Team Due Date: 16th October,2019
+|**Tasks**	                       |**Contributor**   |**Completion Date**|
+|--------------------------------------|:----------------:|---------------|
+|Research Audience Profile             |  Nishi/Vincent               |   October 11th            |		
+|Identify target Audience	       |   Nishi/Vincent              |    October 11th           |
+|Create Audience Profile Markdown Document for the Deliverable    |    Nishi              |  October 14th             |		
+|Proofreader	       |    Malik              |     October 15th          |
+
 
 ### Data Cleaning - Vishekha, Nishi, Vincent and Malik
-> Proofreader: Vincent   ; Team Due Date: 21st October,2019
+|**Tasks**	                       |**Contributor**   |**Completion Date**|
+|--------------------------------------|:----------------:|---------------|
+|Data Source Text Description                      |    Malik              |      October 18th         |		
+Identifying Intellectual property constraints|	Nishi |October 17th|	
+Description of Dataset		| Vishekha            | October 17th  |
+Identifying issues with data set	| Vincent and Malik	| October 20th |
+Documenting steps taken to remediate data	| Vincent and Malik | October 20th|
+Documenting Data Cleaning process| Vincent and Malik | October 21st |		
+Data Cleaning Contributors statements	|Team	          | October 22nd              |
+Create Audience Profile Markdown Document for the Deliverable | Vishekha                |October 23rd|
+Proofreader		| Nishi | October 23rd |
 
 ### R Script - Vishekha, Nishi, Vincent and Malik
 > Proofreader: Vincent   ; Team Due Date: 4th November,2019
