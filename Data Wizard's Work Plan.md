@@ -1,12 +1,16 @@
-# Homestead National Monument
+# Project Name: Homestead National Monument
 ## Project Work Plan
 
 ### Background Research & RQ
-* The client's organization and its mission and goals: **Vishekha**
-* The research questions we plan to focus on and why they matter: **Vishekha, Nishi, Vincent and Malik** 
-* The study organism or phenomenon: **Vincent**
-* The kind of decisions, interventions, or actions that analysis results could support: **Vishekha, Nishi, Vincent and Malik** 
-> Proofreader Vincent   ; Team Due Date: 2nd October
+ **Tasks**	                      |**Contributor**   |**Completion Date**|
+|-------------------------------------|:----------------:|---------------|
+|Client Organization’s Mission & Goals|    Vishekha              |  September 29th           |		
+|The Research Questions we planning to Focus on why they matter    |Vishekha, Nishi, Vincent and Malik |  September 29th    |	
+|The Study organism or phenomenon	      |    Vincent              |  September 29th            |	
+|Decisions, actions and/or Interventions that analysis results could support|Vishekha, Nishi, Vincent and Malik| October 1st|	
+|Markdown Document Deliverable   |Vincent | October 2nd              |		
+| Proofreader                  |    Vishekha              | October 2nd             |
+
 
 
 ### Audience Profiling - Vincent and Nishi 
