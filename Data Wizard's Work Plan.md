@@ -9,6 +9,7 @@ The workplan below provides details of what task will be done by which team memb
 |The Study organism or phenomenon	      |    Vincent              |  September 30th            |	
 |Decisions, actions and/or Interventions that analysis results could support|Vishekha, Nishi, Vincent and Malik| October 1st|	
 |Create Markdown Document for the Deliverable   |Vincent | October 2nd              |		
+|Submit Markdown Document for the Deliverable   |Vincent | October 2nd              |		
 |Proofreader                  |    Vishekha              | October 2nd             |
 
 
@@ -38,10 +39,27 @@ Create Data Cleaning Markdown Document for the Deliverable | Vishekha           
 Proofreader		| Nishi | October 23rd |
 
 ### R Script - Vishekha, Nishi, Vincent and Malik
-> Proofreader: Vincent   ; Team Due Date: 4th November,2019
+
+|**Tasks**	                       |**Contributor**   |**Completion Date**|
+|--------------------------------------|:----------------:|---------------|
+|R script agenda|  Team           | October 26th|
+|Create R Script		|  Team              |   November 3rd |	
+|Create full description of the R Script	|	Team  | November 4th |
+|R Script Contributors statements	|Team	| November 5th|
+|Submit R Script Deliverable             |   Vincent                |November 6th |
+|R Script Proofreader	| Vincent  | November 6th |
+
 
 ### R Plots - Vishekha, Nishi, Vincent and Malik
-> Proofreader: Vincent   ; Team Due Date: 11th November,2019
+|**Tasks**	                               |**Contributor**   |**Completion Date**|
+|----------------------------------------------|:----------------:|---------------|
+|R Plots agenda		| Team | November 8th |
+|Create R Plots		| Team |    November 11th |
+|Create full description of the R Plots script |   Team               |   November 12th            |
+|R Plots Contributors statements	               |Team	| November 13th |
+|Submit R Plot Deliverable                      |   Malik/Nishi                | November 14th |
+|R Plots Proofreader	|Vishekha | November 13th |
+
 
 ### Project Presentation - Vishekha, Nishi, Vincent and Malik 
 > Proofreader: Vishekha   ; Team Due Date: 8th December,2019
@@ -53,3 +71,8 @@ Proofreader		| Nishi | October 23rd |
 ### Group Meeting Details
 * In-person meeting every Thursday after class.
 >In case Thursday meeting gets canceled, the team will meet over ZOOM in the weekend.
+
+### _**Contributorship Statement**_
+
+Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan Documentation. 
+
