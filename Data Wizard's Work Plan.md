@@ -2,7 +2,7 @@
 ## Project Work Plan
 The workplan below provides details of what task will be done by which team member within the deadline set for each deliverable.
 ### Background Research & RQ
- **Tasks**	                      |**Contributor**   |**Completion Date**|
+ **Tasks**	                      |**Contributor**   |**Completion Date** |
 |-------------------------------------|:----------------:|---------------|
 |Client Organization’s Mission & Goals|    Vishekha              |  September 30th           |		
 |The Research Questions we planning to Focus on why they matter    |Vishekha, Nishi, Vincent and Malik |  September 30th    |	
@@ -24,7 +24,7 @@ The workplan below provides details of what task will be done by which team memb
 |Proofreader	       |    Malik              |     October 15th          |
 
 
-### Data Cleaning - Vishekha, Nishi, Vincent and Malik
+### Data Cleaning
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
 |Data Source Text Description                      |    Malik              |      October 18th         |		
@@ -38,7 +38,7 @@ Create Data Cleaning Markdown Document for the Deliverable | Vishekha           
 |Submit Data Cleaning Markdown Document for the Deliverable    |    Vishekha              |  October 23rd             |	
 Proofreader		| Nishi | October 23rd |
 
-### R Script - Vishekha, Nishi, Vincent and Malik
+### R Script
 
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
@@ -50,7 +50,7 @@ Proofreader		| Nishi | October 23rd |
 |R Script Proofreader	| Malik  | November 6th |
 
 
-### R Plots - Vishekha, Nishi, Vincent and Malik
+### R Plots
 |**Tasks**	                               |**Contributor**   |**Completion Date**|
 |----------------------------------------------|:----------------:|---------------|
 |R Plots agenda		| Team | November 9th |
@@ -61,7 +61,6 @@ Proofreader		| Nishi | October 23rd |
 |R Plots Proofreader	|Vishekha | November 13th |
 
 
-### Project Presentation - Vishekha, Nishi, Vincent and Malik 
 ### Project Presentation
 
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
