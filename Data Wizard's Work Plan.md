@@ -61,8 +61,8 @@ The workplan below provides details of what task will be done by which team memb
 |Create R Plots		| Team |    November 10th |
 |Create full description of the R Plots script |   Team               |   November 12th            |
 |R Plots Contributors statements	               |Team	| November 13th |
-|Create R Plot deliverable document and push it to Git |   Malik/Nishi                | November 13th |
-|Submit R Plot deliverable URL on Canvas                    |   Malik/Nishi                | November 13th |
+|Create R Plot deliverable document and push it to Git |   Nishi                | November 13th |
+|Submit R Plot deliverable URL on Canvas                    |  Nishi                | November 13th |
 |R Plots Proofreader	|Vishekha | November 13th |
 
 
