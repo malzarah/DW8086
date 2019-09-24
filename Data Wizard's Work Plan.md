@@ -20,8 +20,8 @@ The workplan below provides details of what task will be done by which team memb
 ### Audience Profiling
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
-|Research Audience Profile             |  Nishi/Vincent               |   October 11th            |		
-|Identify Target Audience	       |   Nishi/Vincent              |    October 12th           |
+|Research Audience Profile             |  Nishi and Vincent               |   October 11th            |		
+|Identify Target Audience	       |   Nishi and Vincent              |    October 12th           |
 |Create Audience Profile Markdown document for the deliverable and push it to Git   |    Nishi              |  October 14th|
 |Submit Audience Profile deliverable URL on Canvas|    Nishi              |  October 14th             |
 |Proofreader	       |    Malik              |     October 15th          |
