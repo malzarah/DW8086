@@ -73,7 +73,7 @@ The workplan below provides details of what task will be done by which team memb
 |Create presentation deck	| Vishekha        | December 2nd |	
 |Presentation Contributor statement	|Team	   | December 11th|
 |Presentation Proofreader   | Vincent | December 11th |
-|Presenation deliverable| Nishi| December 11th|
+|Presentation deliverable| Nishi| December 11th|
 |Project Presentation                   |    Team               | December 12th |
 
 
