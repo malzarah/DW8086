@@ -9,9 +9,9 @@ The workplan below provides details of what task will be done by which team memb
  **Tasks**	                      |**Contributor**   |**Completion Date** |
 |-------------------------------------|:----------------:|---------------|
 |Client Organization’s Mission & Goals|    Vishekha              |  September 30th           |		
-|The Research Questions we planning to Focus on why they matter    |Vishekha, Nishi, Vincent and Malik |  September 30th    |	
+|The Research Questions we planning to Focus on why they matter    |VTeam|  September 30th    |	
 |The Study organism or phenomenon	      |    Vincent              |  September 30th            |	
-|Decisions, actions and/or Interventions that analysis results could support|Vishekha, Nishi, Vincent and Malik| October 1st|	
+|Decisions, actions and/or Interventions that analysis results could support|Team| October 1st|	
 |Create Markdown Document for the Deliverable   |Vincent | October 2nd              |		
 |Submit Markdown Document for the Deliverable   |Vincent | October 2nd              |		
 |Proofreader                  |    Vishekha              | October 2nd             |
