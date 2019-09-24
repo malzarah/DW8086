@@ -47,22 +47,31 @@ Proofreader		| Nishi | October 23rd |
 |Create full description of the R Script	|	Team  | November 4th |
 |R Script Contributors statements	|Team	| November 5th|
 |Submit R Script Deliverable             |   Vincent                |November 6th |
-|R Script Proofreader	| Vincent  | November 6th |
+|R Script Proofreader	| Malik  | November 6th |
 
 
 ### R Plots - Vishekha, Nishi, Vincent and Malik
 |**Tasks**	                               |**Contributor**   |**Completion Date**|
 |----------------------------------------------|:----------------:|---------------|
-|R Plots agenda		| Team | November 8th |
-|Create R Plots		| Team |    November 11th |
+|R Plots agenda		| Team | November 9th |
+|Create R Plots		| Team |    November 10th |
 |Create full description of the R Plots script |   Team               |   November 12th            |
 |R Plots Contributors statements	               |Team	| November 13th |
-|Submit R Plot Deliverable                      |   Malik/Nishi                | November 14th |
+|Submit R Plot Deliverable                      |   Malik/Nishi                | November 13th |
 |R Plots Proofreader	|Vishekha | November 13th |
 
 
 ### Project Presentation - Vishekha, Nishi, Vincent and Malik 
-> Proofreader: Vishekha   ; Team Due Date: 8th December,2019
+### Project Presentation
+
+|**Tasks**	                       |**Contributor**   |**Completion Date**|
+|--------------------------------------|:----------------:|---------------|
+|Presentation agenda     |    Team              |   December 1st            |		
+|Create presentation deck	| Vishekha        | December 2nd |	
+|Presentation Contributors statements	|Team	   | December 11th|
+|Presentation Proofreader   | Vincent | December 11th |
+|Presenation Deliverable| Nishi| December 11th|
+|Project Presentation                   |    Team               | December 12th |
 
 ### Tool Used for Communication Among Team Members
 * Slack
