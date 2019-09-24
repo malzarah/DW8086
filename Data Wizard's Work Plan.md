@@ -78,10 +78,10 @@ Proofreader		| Nishi | October 23rd |
 ### GIT Repository Package
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
-|Create Team Project Git Repository	       |  Vishekha                | September 12             |	
-Create Project readme.md	       | Vishekha         | September 12  |
-Determine Project Plan		       | Team              | September 13  |
-Create Project Work Plan	       | Vishekha            | September 13  |
+|Create Team Project Git Repository	       |  Vishekha                | September 17             |	
+Create Project readme.md	       | Vishekha         | September 17 |
+Determine Project Plan		       | Team              | September 17  |
+Create Project Work Plan	       | Vishekha            | September 18  |
 Project Work Plan Proofreader 	       | Vishekha             | September 18  |
 Submit Project Work Plan               | Vishekha         | September 19  |
 Review components of GIT Package     |Team		|December 9th |
