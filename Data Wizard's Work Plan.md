@@ -17,7 +17,7 @@ The workplan below provides details of what task will be done by which team memb
 |Proofreader                  |    Vishekha              | October 2nd             |
 
 
-### Audience Profiling - Vincent and Nishi 
+### Audience Profiling
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
 |Research Audience Profile             |  Nishi/Vincent               |   October 11th            |		
@@ -95,18 +95,14 @@ The workplan below provides details of what task will be done by which team memb
 
 
 ### _**Contributorship Statement**_
-
 * Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan task. 
 
 
 ### Tool Used for Communication Among Team Members
 * Slack
-> Each member has two hours' time frame to respond when get tagged in Slack. After two hours with no reply, one of the team member will give he/she a call. *Exception: If a message is dropped late evening after 8:00pm then the individual posting the message shall wait until next day noon for a response from other team members.
+> Each member has two hours' time frame to respond when get tagged in Slack. After two hours with no reply, one of the team member will give he/she a call. Exception: If a message is dropped late evening after 8:00pm then the individual posting the message shall wait until next day noon for a response from other team members.
 
 
 ### Group Meeting Details
 * In-person meeting every Thursday after class.
 >In case Thursday meeting gets canceled, the team will meet over ZOOM in the weekend.
-
-
-
