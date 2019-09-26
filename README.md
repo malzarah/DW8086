@@ -6,7 +6,7 @@
 * **Repository License Type:** **GNU General Public License v3.0** [Refer to License file within repository for more information](https://github.com/datawizard8086/DW8086/blob/master/LICENSE)
 
 ### **Overview of Contents**
-* Work Plan
+* [Work Plan](https://github.com/datawizard8086/DW8086/blob/master/Data%20Wizard's%20Work%20Plan.md)
 * Background Research & Research Questions
 * Audience Profile
 * Data Cleaning Documentation
