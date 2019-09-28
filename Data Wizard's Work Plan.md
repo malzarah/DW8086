@@ -11,7 +11,7 @@ The workplan below provides details of what task will be done by which team memb
 |Client Organization’s Mission & Goals|    Vishekha              |  September 30th           |		
 |The Research Questions |Team|  September 30th    |	
 |The Study organism or phenomenon	      |    Vincent              |  September 30th            |	
-|Decisions, actions and/or Interventions that analysis results could support|Team| October 1st|	
+|Decisions, actions and/or Interventions that analysis results could support|Malik and Nishi| October 1st|	
 |Create Markdown document for the deliverable and push it to git  |Vincent | October 2nd              |		
 |Submit Markdown document URL for the deliverable on Canvas  |Vincent | October 2nd              |		
 |Proofreader                  |    Vishekha              | October 2nd             |
