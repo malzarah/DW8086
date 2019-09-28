@@ -5,4 +5,4 @@
  *  The study organism or phenomenon.
  *  The kind of decisions, interventions, or actions that analysis results could support.
 
-## The client's organization , its Mission and Goals
+## The client's organization, and its Mission and Goals
