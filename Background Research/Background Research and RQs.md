@@ -26,6 +26,7 @@ Homestead Act has been one of the most important legislation in the United State
 The Association could not do much due to funds issue and soon after the America entered into World War || the park visitation and development was suspended.
 However, in the year 1950, National park service (NPS) acquired the park and built the visitor center. Gradually there were some positive progress towards the development and in the year 1981, the National Monument had five permanent employees, one part-time and few seasonal employees.
 In the 1970’s and 1980’s seasonal rangers demonstrated the history of the Homestead Act. By the early 1990’s, the Homestead Act began to move to other states in the country.
+
 The mission of the organization is to protect and preserve the cultural and natural resources of National Park System. They also believe that it is our responsibility to protect the resources we have today for our next generation. The services extends with other collaborative partners’ to conserve the natural and cultural resources and recreating outdoor across the country 
 
 * Goals
