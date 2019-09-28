@@ -8,6 +8,7 @@
 ## The Client's Organization and its Mission and Goals
 
 * Introduction
+
 Homestead National Monument of America (HOME), is a unit of National Park Service, which addresses the concerns regarding water quality. Organization’s concerns revolve around aquatic invertebrates which started in the year 1966. 
 The National Monument first began part of National Register of Historic places in the year 1966.
 The National Monument is on site which is  5 miles west of Beatrice, Gage County and Nebraska. This site is now one among the most successfully claimed acres claimed under Homestead Act.
@@ -17,6 +18,7 @@ Homestead Act holds one of the greater significance for westward expansion of th
 The Homestead Act brought far reaching effects on the landscape and in the lives of the people.
 
 * History and Mission
+
 Homestead Act has been one of the most important legislation in the United States. The very first Homestead was claimed in the Brownville, Nebraska by a resident of Ohio name Daniel Freeman in the year 1863.He is the first homesteader in the nation. Daniel served more than 1000 acres and became one of the prominent resident of Gage County. He proposed the idea of memorizing the place he lived in, on his name. Soon after his death the residents of Beatrice started the agenda of preserving his homestead as National park. Initially the proposal got rejected by the officials but in the year 1934,the resident of Beatrice organized National Homestead Park Association to continue the deed as performed by the Daniel.
 The Association could not do much due to funds issue and soon after the America entered into World War || the park visitation and development was suspended.
 However, in the year 1950, National park service (NPS) acquired the park and built the visitor center. Gradually there were some positive progress towards the development and in the year 1981, the National Monument had five permanent employees, one part-time and few seasonal employees.
