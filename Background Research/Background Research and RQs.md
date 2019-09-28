@@ -31,6 +31,7 @@ The mission of the organization is to protect and preserve the cultural and natu
 
 * Goals
 
+The ultimate goal of the entire Homestead Act is providing  free land to people in exchange of asking them to cultivating the land to its best. This agenda helped both mankind and the resources around us. People received land for free to live in and at the same time our natural resources, our land and water habitats were protected from further contamination. So many families and immigrants flooded more than 10 percent of the land in US to achieve the ultimate Homestead goal and fulfil the American dream. The goal is to achieve diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building the nature, renewing our resources to the best for the mankind and future generations to live in.
 
 ## The Research Questions
 * 
