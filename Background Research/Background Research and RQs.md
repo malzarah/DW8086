@@ -6,3 +6,15 @@
  *  The kind of decisions, interventions, or actions that analysis results could support.
 
 ## The Client's Organization and its Mission and Goals
+
+
+## The Research Questions
+* 
+* 
+*
+*
+
+
+## The Study Organism and Phenomenon
+
+## The kind of decisions, interventions, or actions that analysis results could support
