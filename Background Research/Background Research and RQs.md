@@ -43,6 +43,7 @@ The ultimate goal of the entire Homestead Act is providing  free land to people 
 ## The Study Organism and Phenomenon
 
 ## The kind of decisions, interventions, or actions that analysis results could support
+The analysis can help to determine which people should be offered free land for cultivating. The decisions and actions that can be taken based on the analysis will help to determine how to optimize resource usage. To prevent from land and natural resources from contamination analysis will help to monitor lands and determine when and whom to offer.
 
 
 ## References
