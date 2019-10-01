@@ -43,7 +43,8 @@ The ultimate goal of the entire Homestead Act is providing  free land to people 
 ## The Study Organism and Phenomenon
 
 ## The kind of decisions, interventions, or actions that analysis results could support
-The analysis can help to determine which people should be offered free land for cultivating. The decisions and actions that can be taken based on the analysis will help to determine how to optimize resource usage. To prevent from land and natural resources from contamination analysis will help to monitor lands and determine when and whom to offer.
+The analysis can help to determine which people should be offered free land for cultivating. The decisions and actions that can be taken based on the analysis will help to determine how to optimize resource usage. To prevent from land and natural resources from contamination analysis will help to monitor lands and determine when and whom to offer. The analysis could help find out what are the factors which affect the amount of E.coli. Based on analytics and finding out the right combination can help us do better cultivating.  Finding the water quality factors and other related parameters can help us give more information and help people do better cultivation.
+The detailed study will help for furture planning and find the best ways to get better result from cultivation.There are lot of factors which affects cultivation, the results and analysis can help to improve cultivation. The project focuses on using the available data and determine the factors which affect water and find out how to improve the current process.
 
 
 ## References
