@@ -99,3 +99,7 @@ The detailed study will help for furture planning and find the best ways to get 
 * pH and water. USGS science for a changing world Retrieved from https://www.usgs.gov/special-topic/water-science-school/science/ph-and-water?qt-science_center_objects=0#qt-science_center_objects
 * Rock,C., & Rivera, B.(2014, march). Water Quality, E. coli and Your Health. The University of Arizona,
 College of Agriculture and Life Sciences. Retrieved from https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1624.pdf
+
+
+## Contributorship Statement
+* Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan task.
