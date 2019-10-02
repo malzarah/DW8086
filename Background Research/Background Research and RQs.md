@@ -65,12 +65,12 @@ Finally, the researchers need to look at fecal bacteria which is an important in
 
 ## The kind of decisions, interventions, or actions that analysis results could support
 
-The cub creek water quality not only impacts the aquatic species but also the human. Poor water quality also affects the nearby land which is used for agricultural productions of corn, soybeans, wheat, and alfalfa. The water quality is degrading due to many reasons. One of the main reason is Escherichia coli (abbreviated as E. coli) which is a bacteria normally live in the intestines of human and animal. E. coli can get in the water in many ways. For example through sewage, rainwater, industrial wastage, etc. This cannot be seen by open eyes and with the use of microscope only we can see it. 
-           The cub creek is connected to a large Tuttle creek water which contains three-fourths of drainage in Nebraska. The Tuttle creek lake water flows towards the Kansas river and this river provides public drinking water to the city. That’s the main reason we are evaluating water quality before the problems become bigger. Our first two research questions are related to this concern.
+The cub creek water quality not only impacts the aquatic species but also the human.  Poor water quality always affects the nearby land which is used for agricultural productions of corn, soybeans, wheat, and alfalfa. Now a days water quality is degrading due to many reasons. One of the main reason is Escherichia coli (abbreviated as E. coli) which is a bacteria normally live in the intestines of human and animal. E. coli can get in the water in many ways for example through sewage, rainwater, industrial wastage, etc. These bacteria cannot be seen by open eyes and with the use of microscope only we can see it. The cub creek is connected to a large Tuttle creek water which contains three-fourths drainage of Nebraska. The Tuttle creek lake water flows towards the Kansas river and this river provides public drinking water to the city. That’s the main reason we are evaluating water quality before the problems become bigger. Our first two research questions are related to this concern.
+
  * Does season or temperature affect the amount of E.coli? (winter vs. summer?)
  * Does precipitation affect the amount of E.coli? (sewage water?)
- 
-Cub creek collects water from many sources e.g. - rainwater. In a basic/normal water, pH value should be pH>7. But, in acidic water pH value is pH<7. This is also an important measurement in water quality as it determines the solubility and biological availability of chemicals. Aquatic life depends on the pH value. They cannot survive in acidic water. our two research questions are related to this concern.
+
+Cub creek collects water from many sources e.g. - rainwater. In a basic/normal water, pH value should be pH>7. But, in acidic water pH value is pH<7. This is also an important measurement in water quality as it determines the solubility and biological availability of chemicals. Aquatic life depends on the pH value. They cannot survive in acidic water. our two research questions are related to this concern. 
  
  * Does precipitation (rainy season) affect the pH level? (Acid rain? Water flowing from the street?)
  * Does precipitation affect water conductivity? (pollution water flowing in?
@@ -95,3 +95,7 @@ The detailed study will help for furture planning and find the best ways to get 
 * Summary of the Clean Water Act Retrieved From https://www.epa.gov/laws-regulations/summary-clean-water-act
 * Water Quality Monitoring Retrieved From http://www.longwood.edu/cleanva/images/Sec5.WQMchapter.pdf
 * Chapter 5 Water Quality Conditions Retrieved From https://archive.epa.gov/water/archive/web/html/vms50.html
+* Cub creek water quality project Retrieved from https://www.nps.gov/home/learn/nature/cubcreekwaterquality.htm
+* pH and water. USGS science for a changing world Retrieved from https://www.usgs.gov/special-topic/water-science-school/science/ph-and-water?qt-science_center_objects=0#qt-science_center_objects
+* Rock,C., & Rivera, B.(2014, march). Water Quality, E. coli and Your Health. The University of Arizona,
+College of Agriculture and Life Sciences. Retrieved from https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1624.pdf
