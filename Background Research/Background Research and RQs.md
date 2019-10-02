@@ -43,6 +43,25 @@ The ultimate goal of the entire Homestead Act is providing  free land to people 
 ## The Study Organism and Phenomenon
 
 ## The kind of decisions, interventions, or actions that analysis results could support
+
+The cub creek water quality not only impacts the aquatic species but also the human. Poor water quality also affects the nearby land which is used for agricultural productions of corn, soybeans, wheat, and alfalfa. The water quality is degrading due to many reasons. One of the main reason is Escherichia coli (abbreviated as E. coli) which is a bacteria normally live in the intestines of human and animal. E. coli can get in the water in many ways. For example through sewage, rainwater, industrial wastage, etc. This cannot be seen by open eyes and with the use of microscope only we can see it. 
+           The cub creek is connected to a large Tuttle creek water which contains three-fourths of drainage in Nebraska. The Tuttle creek lake water flows towards the Kansas river and this river provides public drinking water to the city. That’s the main reason we are evaluating water quality before the problems become bigger. Our first two research questions are related to this concern.
+ * Does season or temperature affect the amount of E.coli? (winter vs. summer?)
+ * Does precipitation affect the amount of E.coli? (sewage water?)
+ 
+Cub creek collects water from many sources e.g. - rainwater. In a basic/normal water, pH value should be pH>7. But, in acidic water pH value is pH<7. This is also an important measurement in water quality as it determines the solubility and biological availability of chemicals. Aquatic life depends on the pH value. They cannot survive in acidic water. our two research questions are related to this concern.
+ 
+ * Does precipitation (rainy season) affect the pH level? (Acid rain? Water flowing from the street?)
+ * Does precipitation affect water conductivity? (pollution water flowing in?
+ 
+To predict a good analysis using the given set of data, it is important to know which data affect the analysis. The below questions are of concern by the research team.
+ 
+ * What factors affect the water quality the most (Solved using Multiple Regression approach)?
+ * What models can we try to find the relationship between water quality and other parameters in the given dataset?
+ * What parameters are dependent and which ones are independent?
+ * Does time(HH:MM: SS) affect Float test 1 to float test 5?
+ * Could you please clarify about the sites NEGP and WGP? What does it stand for and how water flows in these four sites north, west, NEGP, and WGP? 
+
 The analysis can help to determine which people should be offered free land for cultivating. The decisions and actions that can be taken based on the analysis will help to determine how to optimize resource usage. To prevent from land and natural resources from contamination analysis will help to monitor lands and determine when and whom to offer. The analysis could help find out what are the factors which affect the amount of E.coli. Based on analytics and finding out the right combination can help us do better cultivating.  Finding the water quality factors and other related parameters can help us give more information and help people do better cultivation.
 The detailed study will help for furture planning and find the best ways to get better result from cultivation.There are lot of factors which affects cultivation, the results and analysis can help to improve cultivation. The project focuses on using the available data and determine the factors which affect water and find out how to improve the current process.
 
