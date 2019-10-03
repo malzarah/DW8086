@@ -6,7 +6,7 @@
  *  The kind of decisions, interventions, or actions that analysis results could support.
 
 ## The Client's Organization and its Mission and Goals
-Our Project is based on the Homestead National Monument water quality monitoring.In this section we will talk about the Organization,the associated history and their Mission and Goals.
+Our Project is based on the Homestead National Monument Water Quality Monitoring.In this section, we will talk about the Organization,the associated history and their Mission and Goals.
 
 ### Introduction
 
