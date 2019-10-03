@@ -113,4 +113,4 @@ College of Agriculture and Life Sciences. Retrieved from https://extension.arizo
 
 ## ProofReader statement
 Vishekha Tamrakar is the proofreader of this document.
-*I, Vishekha, have reviewed this and agree that it is ready for submission.
+
