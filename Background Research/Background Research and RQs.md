@@ -7,7 +7,7 @@
 
 ## The Client's Organization and its Mission and Goals
 
-* Introduction
+### Introduction
 
 Homestead National Monument of America (HOME), is a unit of National Park Service 
 The National Monument first began part of National Register of Historic places in the year 1966.
@@ -20,7 +20,7 @@ The Homestead Act brought far reaching effects on the landscape and in the lives
 To raise concerns regarding water quality HOME monitored aquatic invertebrates which started in the year 1996. The quality of the water was measured against the following factors:-
 temperature, dissolved oxygen, specific conductance, pH, turbidity, nitrate-nitrogen, total phosphorus, and fecal coliform bacteria (Escherichia coli). Most of the factors met the standards. However, few of the factors like phosphorus concentrations, turbidity, and fecal coliform bacteria were found to be very high. Summary data showing metric for phosphorus concentrations, turbidity, and fecal coliform bacteria, indicated that the water quality is not appropriate and not biologically supported .Thereby, HOME decided to protect and manage the in-stream habitats.
 	
-* History and Mission
+### History and Mission
 
 Homestead Act has been one of the most important legislation in the United States. The very first Homestead was claimed in the Brownville, Nebraska by a resident of Ohio name Daniel Freeman in the year 1863.He is the first homesteader in the nation. Daniel served more than 1000 acres and became one of the prominent resident of Gage County. He proposed the idea of memorizing the place he lived in, on his name. Soon after his death the residents of Beatrice started the agenda of preserving his homestead as National park. Initially the proposal got rejected by the officials but in the year 1934,the resident of Beatrice organized National Homestead Park Association to continue the deed as performed by the Daniel.
 The Association could not do much due to funds issue and soon after the America entered into World War || the park visitation and development was suspended.
@@ -29,16 +29,20 @@ In the 1970’s and 1980’s seasonal rangers demonstrated the history of the Ho
 
 The mission of the organization is to protect and preserve the cultural and natural resources of National Park System. They also believe that it is our responsibility to protect the resources we have today for our next generation. The services extends with other collaborative partners’ to conserve the natural and cultural resources and recreating outdoor across the country 
 
-* Goals
+### Goals
 
 The ultimate goal of the entire Homestead Act is providing  free land to people in exchange of asking them to cultivating the land to its best. This agenda helped both mankind and the resources around us. People received land for free to live in and at the same time our natural resources, our land and water habitats were protected from further contamination. So many families and immigrants flooded more than 10 percent of the land in US to achieve the ultimate Homestead goal and fulfil the American dream. The goal is to achieve diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building the nature, renewing our resources to the best for the mankind and future generations to live in.
 
 ## The Research Questions
-* 
-* 
-*
-*
-
+ * Does season or temperature affect the amount of E.coli? (Winter vs. summer?)  
+ * Does precipitation affect the amount of E.coli? (Sewage water?)  
+ * Does precipitation (rainy season) affect the pH level? (Acid rain? Water flowing from the street?)  
+ * Does precipitation affect water conductivity? (Pollution water flowing in?)  
+ * What factors affect the water quality the most? (Solved using Multiple Regression approach)  
+ * What models can we try to find the relationship between water quality and other parameters in the given dataset?  
+ * What parameters are dependent and which ones are independent?  
+ * Does time(HH:MM: SS) affect Float test 1 to float test 5?  
+ * Could you please clarify about the sites NEGP and WGP? What does it stand for and how water flows in these four sites north, west, NEGP, and WGP?  
 
 ## The Study Organism and Phenomenon
 Water is essential to all life on Earth. In fact, water covered about three fourth of the Earth’s surface, however, freshwater only contribute to a tiny fraction of that amount. Additionally, freshwater supports most living things on Earth which makes it extremely important to keep the source of life safe and clean.
@@ -67,13 +71,13 @@ Finally, the researchers need to look at fecal bacteria which is an important in
 
 The cub creek water quality not only impacts the aquatic species but also the human.  Poor quality of water always affects the nearby land which is used for agricultural productions of corn, soybeans, wheat, and alfalfa. Now a days water quality is degrading due to many reasons. One of the main reason is Escherichia coli (abbreviated as E. coli) which is a bacteria normally live in the intestines of human and animal. E. coli can get in the water in many ways for example through sewage, rainwater, industrial wastage, etc. These bacteria cannot be seen by open eyes and with the use of microscope only we can see it. The cub creek is connected to a large Tuttle creek water which contains three-fourths drainage of Nebraska. The Tuttle creek lake water flows towards the Kansas river and this river provides public drinking water to the city. That’s the main reason we are evaluating water quality before the problems become bigger. Our first two research questions are related to this concern.
 
- * Does season or temperature affect the amount of E.coli? (winter vs. summer?)
- * Does precipitation affect the amount of E.coli? (sewage water?)
+ * Does season or temperature affect the amount of E.coli? (Winter vs. summer?)
+ * Does precipitation affect the amount of E.coli? (Sewage water?)
 
 Cub creek collects water from many sources e.g. - rainwater. In a basic/normal water, pH value should be pH>7. But, in acidic water pH value is pH<7. This is also an important measurement in water quality as it determines the solubility and biological availability of chemicals. Aquatic life depends on the pH value. They cannot survive in acidic water. our two research questions are related to this concern. 
  
  * Does precipitation (rainy season) affect the pH level? (Acid rain? Water flowing from the street?)
- * Does precipitation affect water conductivity? (pollution water flowing in?
+ * Does precipitation affect water conductivity? (Pollution water flowing in?
  
 To predict a good analysis using the given set of data, it is important to know which data affect the analysis. The below questions are of concern by the research team.
  
@@ -88,16 +92,16 @@ The detailed study will help for furture planning and find the best ways to get 
 
 
 ## References
-* Homestead National Monument of America Retrieved from https://en.wikipedia.org/wiki/Homestead_National_Monument_of_America
-* Aquatic invertebrate community trends and water quality at Homestead National Monument of America, Nebraska, 1996-2012 Retrieved from https://bioone.org/journals/transactions-of-the-kansas-academy-of-science/volume-116/issue-3-4/062.116.0301/Aquatic-Invertebrate-Community-Trends-and-Water-Quality-at-Homestead-National/10.1660/062.116.0301.short
-* National Park Service Retrieved From https://www.nps.gov/home/learn/historyculture/abouthomesteadactlaw.htm
-* How much water is there on Earth Retrieved From https://www.usgs.gov/special-topic/water-science-school/science/how-much-water-there-earth?qt-science_center_objects=0#qt-science_center_objects
-* Summary of the Clean Water Act Retrieved From https://www.epa.gov/laws-regulations/summary-clean-water-act
-* Water Quality Monitoring Retrieved From http://www.longwood.edu/cleanva/images/Sec5.WQMchapter.pdf
-* Chapter 5 Water Quality Conditions Retrieved From https://archive.epa.gov/water/archive/web/html/vms50.html
-* Cub creek water quality project Retrieved from https://www.nps.gov/home/learn/nature/cubcreekwaterquality.htm
-* pH and water. USGS science for a changing world Retrieved from https://www.usgs.gov/special-topic/water-science-school/science/ph-and-water?qt-science_center_objects=0#qt-science_center_objects
-* Rock,C., & Rivera, B.(2014, march). Water Quality, E. coli and Your Health. The University of Arizona,
+1. Homestead National Monument of America Retrieved from https://en.wikipedia.org/wiki/Homestead_National_Monument_of_America
+2. Aquatic invertebrate community trends and water quality at Homestead National Monument of America, Nebraska, 1996-2012 Retrieved from https://bioone.org/journals/transactions-of-the-kansas-academy-of-science/volume-116/issue-3-4/062.116.0301/Aquatic-Invertebrate-Community-Trends-and-Water-Quality-at-Homestead-National/10.1660/062.116.0301.short
+3. National Park Service Retrieved From https://www.nps.gov/home/learn/historyculture/abouthomesteadactlaw.htm
+4. How much water is there on Earth Retrieved From https://www.usgs.gov/special-topic/water-science-school/science/how-much-water-there-earth?qt-science_center_objects=0#qt-science_center_objects
+5. Summary of the Clean Water Act Retrieved From https://www.epa.gov/laws-regulations/summary-clean-water-act
+6. Water Quality Monitoring Retrieved From http://www.longwood.edu/cleanva/images/Sec5.WQMchapter.pdf
+7. Chapter 5 Water Quality Conditions Retrieved From https://archive.epa.gov/water/archive/web/html/vms50.html
+8. Cub creek water quality project Retrieved from https://www.nps.gov/home/learn/nature/cubcreekwaterquality.htm
+9. pH and water. USGS science for a changing world Retrieved from https://www.usgs.gov/special-topic/water-science-school/science/ph-and-water?qt-science_center_objects=0#qt-science_center_objects
+10. Rock,C., & Rivera, B.(2014, march). Water Quality, E. coli and Your Health. The University of Arizona,
 College of Agriculture and Life Sciences. Retrieved from https://extension.arizona.edu/sites/extension.arizona.edu/files/pubs/az1624.pdf
 
 
