@@ -77,7 +77,7 @@ The cub creek water quality not only impacts the aquatic species but also the hu
  * Does season or temperature affect the amount of E.coli? (Winter vs. summer?)
  * Does precipitation affect the amount of E.coli? (Sewage water?)
 
-Cub creek collects water from many sources e.g. - rainwater. In a basic/normal water, pH value should be pH>7. But, in acidic water pH value is pH<7. This is also an important measurement in water quality as it determines the solubility and biological availability of chemicals. Aquatic life depends on the pH value. They cannot survive in acidic water. our two research questions are related to this concern. 
+Cub creek collects water from many sources e.g.- rainwater. In a basic/normal water, pH value should be pH>7. But, in acidic water pH value is pH<7. This is also an important measurement in water quality as it determines the solubility and biological availability of chemicals. Aquatic life depends on the pH value. They cannot survive in acidic water. our two research questions are related to this concern. 
  
  * Does precipitation (rainy season) affect the pH level? (Acid rain? Water flowing from the street?)
  * Does precipitation affect water conductivity? (Pollution water flowing in?
