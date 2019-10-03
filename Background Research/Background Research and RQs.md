@@ -106,4 +106,4 @@ College of Agriculture and Life Sciences. Retrieved from https://extension.arizo
 
 
 ## Contributorship Statement
-* Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan task.
+* Vishekha, Nishi, Vincent and Malik have contributed to this Background Research and RQs task.
