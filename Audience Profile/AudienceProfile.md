@@ -1,4 +1,4 @@
-# Homestead National Monument Watar Monitoring
+# Homestead National Monument Water Monitoring
 
 ## Audience Profile
 
