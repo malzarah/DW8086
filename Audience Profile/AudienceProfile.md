@@ -28,11 +28,11 @@ Our client name is Jesse Bolli, working as a Resource Management Specialist at H
 ### Communities (served by organization)
 
 Homestead monitos couple of parameters such as 	
-*Air
-*Water
-*WildLife
-*Fire Ecology
-*Land Cover
+* Air
+* Water
+* WildLife
+* Fire Ecology
+* Land Cover
 
 All the monitoring reports are available and are open to the public. This group’s main goal is to monitor those factors mentioned above and publish them and make it available to  the public. The reports available online most of them are visible to the public, and they do mention the visibility  in all the reports.
 
