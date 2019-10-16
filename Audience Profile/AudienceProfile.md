@@ -14,7 +14,9 @@ Our client name is Jesse Bolli, working as a Resource Management Specialist at H
 
 ### Sociodemographic
 #### Training & Education
-*
+In 1972, the U.S. government introduced the Clean Water Act (CWA) to conserve the quality of surface water. This act was introduced to make sure that all sources of surface water like lakes, streams, and rivers are regulated. From this point onward, the Environmental Protection Agency (EPA) regulates the water quality standards and requirements. According to the United States Environmental Protection Agency, “the CWA made it unlawful to discharge any pollutant from a point source into navigable waters, unless a permit was obtained”. For instance, the EPA set the threshold for the acceptable amount of pollutants and wastewater standards for the industry.
+
+Acknowledge the importance of water quality, many park rangers and water quality professionals have been monitoring the quality of surface water throughout the country. By monitoring water quality, the researchers can identify specific contaminations, trends, and whether the water meets EPA standards. To identify contaminations, the researchers need to look at various chemical constituents like phosphorus, nitrate, and dissolved oxygen. Some of the common factors that lead to water pollution are “the number of people living in a watershed, how the land is used (agriculture, forested, urbanized, etc.) and the everyday behavior of the population”. Also, the researchers need to look at some other components like the streamflow, temperature, pH level, turbidity, total solids, conductivity, total alkalinity, and Fecal bacteria. The combinations of all these measurements help pinpoint the source of the contamination. For instance, if the source of the contamination is from industrial discharge, the researchers can expect to have unusual measurements on the temperature, the conductivity, the total solids, the toxics, and the pH level. In general, the water temperature from upstream to downstream shouldn’t change too drastically so it would be a good signal to let the researchers know that the water might be contaminated.
 #### Technical skills
 * 
 
