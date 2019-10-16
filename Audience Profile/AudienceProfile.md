@@ -38,11 +38,11 @@ All the monitoring reports are available and are open to the public. This groupâ
 
 Based on their reports following are the list of communities which are benefited by their mission:
 
-*Aquatic Society
-*Immigrants who come to the  U.S.A  for fulfilling their dream
-*Communities which are looking for any livelihood 
-*Natural Resources which are in the fear of contamination, the authorities do read the reports and decide which lands need to be  protected from being contaminated
-*The reports are also available to various government agencies who take action based on their reports
+* Aquatic Society
+* Immigrants who come to the  U.S.A  for fulfilling their dream
+* Communities which are looking for any livelihood 
+* Natural Resources which are in the fear of contamination, the authorities do read the reports and decide which lands need to be  protected from being contaminated
+* The reports are also available to various government agencies who take action based on their reports
 
 
 
