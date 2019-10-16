@@ -5,7 +5,6 @@
 Below are the details regarding the Organization, Client's information and other details of the Organization on which our study analysis depends.
 
 ### Organization Details
-* Homestead National Monument
 Homestead National Monument of America (HOME) is a unit of the National Park Service. In 1966, the National Monument first began as a part of the National Register of Historic Places. The National Monument is 5 miles west of Beatrice, Gage County, and Nebraska. Under the Homestead Act, the site is one of the most successful lands claimed sites. HOME allows qualified volunteers to claim up to 160 acres of land owned by the federal government in exchange for five years of residence, cultivation, and improvement of the property. As a result, more than 270 million acres of land were given to the volunteers. This led to drastic changes in the quality of land which was much needed. The Homestead National Monument has a heritage center inside the park where visitors can learn more about the act and the organization by taking a tour of the interactive museum of the American homesteading. The Homestead Act holds significance for the westward expansion of the United States. It allows any volunteer to claim the land in exchange for taking care of it, keeping it free from contamination, and persuading people to take the best care of the land they live in. The Homestead Act brought far-reaching effects on the landscape and the lives of the people by preserving our resources for future generations.
 
 ### Client's Information
@@ -23,7 +22,7 @@ Our client name is Jesse Bolli, working as a Resource Management Specialist at H
 #### Needs (as relate to project)
 * 
 #### Organization Values/ Mission/Goals
-* The ultimate goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
+The ultimate goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
 
 ### Communities (served by organization)
 
