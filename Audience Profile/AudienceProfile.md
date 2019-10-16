@@ -11,7 +11,7 @@ Homestead National Monument of America (HOME) is a unit of National Park Service
 ### Client's Information
 Our Client name is Jesse Bolli, working as a Resource Management Specialist at Homestead National Monument.
 ![Jesse Bolli](https://bloximages.chicago2.vip.townnews.com/beatricedailysun.com/content/tncms/assets/v3/editorial/e/97/e979bc38-d1ff-52de-a659-1dfccd4b0fc3/5cc34a2fb4cb7.image.jpg?resize=1700%2C1136)
->Jesse Bolli, a Natural Resource Management Specialist at the Homestead National Monument of America, plants a peach tree to celebrate Arbor Day. Homestead has had an orchard that the community can pick fruits from since 2007.
+>Jesse Bolli, a Natural Resource Management Specialist at the Homestead National Monument of America, plants a peach tree to celebrate Arbor Day. Ever since 2007, Homestead has had an orchard that the community can pick fruits from.
 
 ### Sociodemographic
 #### Training & Education
