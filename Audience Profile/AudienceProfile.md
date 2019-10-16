@@ -14,15 +14,17 @@ Our client name is Jesse Bolli, working as a Resource Management Specialist at H
 
 ### Sociodemographic
 #### Training & Education
-In 1972, the U.S. government introduced the Clean Water Act (CWA) to conserve the quality of surface water. This act was introduced to make sure that all sources of surface water like lakes, streams, and rivers are regulated. From this point onward, the Environmental Protection Agency (EPA) regulates the water quality standards and requirements. According to the United States Environmental Protection Agency, “the CWA made it unlawful to discharge any pollutant from a point source into navigable waters, unless a permit was obtained”. For instance, the EPA set the threshold for the acceptable amount of pollutants and wastewater standards for the industry.
-
-Acknowledge the importance of water quality, many park rangers and water quality professionals have been monitoring the quality of surface water throughout the country. By monitoring water quality, the researchers can identify specific contaminations, trends, and whether the water meets EPA standards. To identify contaminations, the researchers need to look at various chemical constituents like phosphorus, nitrate, and dissolved oxygen. Some of the common factors that lead to water pollution are “the number of people living in a watershed, how the land is used (agriculture, forested, urbanized, etc.) and the everyday behavior of the population”. Also, the researchers need to look at some other components like the streamflow, temperature, pH level, turbidity, total solids, conductivity, total alkalinity, and Fecal bacteria. The combinations of all these measurements help pinpoint the source of the contamination. For instance, if the source of the contamination is from industrial discharge, the researchers can expect to have unusual measurements on the temperature, the conductivity, the total solids, the toxics, and the pH level. In general, the water temperature from upstream to downstream shouldn’t change too drastically so it would be a good signal to let the researchers know that the water might be contaminated.
+*
 #### Technical skills
 * 
 
 ### Goals
-#### Needs (as relate to project)
-* 
+#### Requirements/Needs
+  * To monitor the water quality between two sites of cub creek which is over 1 mile apart.
+  * To Analyze different parameters i.e. dissolved oxygen, flow, pH, nitrate, phosphate, sulfate, E.coli, etc.
+  * To analyze the differences between the west sites where the water enters and the north site where the water exists.
+  * To maintain and protect the nearby land and keep it healthy for cultivation.
+  
 #### Organization Values/ Mission/Goals
 The ultimate goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
 
@@ -47,7 +49,8 @@ Based on their reports following are the list of communities which are benefited
 
 
 
-### Challanges (may relate to need)
+### Challanges
+The main challenges in cub creek water are to control the wastewater discharge and the industrial chemical discharges.  Flood water also negatively impacting the integrity of the cub creek water. Any biological or chemical changes impact directly to the human health and ecosystem.
 
 ### Expectations, benefits (as relate to project)
 
