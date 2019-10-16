@@ -27,6 +27,25 @@ Our client name is Jesse Bolli, working as a Resource Management Specialist at H
 
 ### Communities (served by organization)
 
+Homestead monitos couple of parameters such as 	
+*Air
+*Water
+*WildLife
+*Fire Ecology
+*Land Cover
+
+All the monitoring reports are available and are open to the public. This group’s main goal is to monitor those factors mentioned above and publish them and make it available to  the public. The reports available online most of them are visible to the public, and they do mention the visibility  in all the reports.
+
+Based on their reports following are the list of communities which are benefited by their mission:
+
+*Aquatic Society
+*Immigrants who come to the  U.S.A  for fulfilling their dream
+*Communities which are looking for any livelihood 
+*Natural Resources which are in the fear of contamination, the authorities do read the reports and decide which lands need to be  protected from being contaminated
+*The reports are also available to various government agencies who take action based on their reports
+
+
+
 ### Challanges (may relate to need)
 
 ### Expectations, benefits (as relate to project)
