@@ -14,13 +14,13 @@ Our Client name is Jesse Bolli, working as a Resource Management Specialist at H
 >Jesse Bolli, a Natural Resource Management Specialist at the Homestead National Monument of America, plants a peach tree to celebrate Arbor Day. Homestead has had an orchard that the community can pick fruits from since 2007.
 
 ### Sociodemographic
-* Training & Education
-* Technical skills
+#### Training & Education
+#### Technical skills
 
 ### Goals
-1. Needs (as relate to project)
+#### Needs (as relate to project)
 
-2. Organization Values/ Mission/Goals
+#### Organization Values/ Mission/Goals
 * The ultimate goal of the entire Homestead Act is providing free land to people in exchange for asking them to cultivate the land to its best. This agenda helped both mankind and the resources around us. People received land for free to live in and at the same time our natural resources, our land, and water habitats were protected from further contamination. So many families and immigrants flooded more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill the American dream. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
 
 ### Communities (served by organization)
