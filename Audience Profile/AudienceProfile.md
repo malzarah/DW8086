@@ -31,5 +31,5 @@ The ultimate goal of the entire Homestead Act is providing free land to people i
 
 ### Legal/regulatory/policy considerations
 
-### Contributorship Statement
+#### Contributorship Statement
 *  Nishi, Malik, Vincent and Vishekha have contributed to the Audience Profile Task.
