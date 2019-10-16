@@ -1,7 +1,7 @@
 # Homestead National Monument Water Quality Monitoring
 ![Homestead National Monument](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Entrance_to_the_Homestead_Heritage_Center.jpg/2560px-Entrance_to_the_Homestead_Heritage_Center.jpg)
 
-## 	__underline__Audience Profile
+## Audience Profile
 Below are the details regarding the Organization, Client's information and other details of the Organization on which our study analysis depends.
 
 ### Organization Details
