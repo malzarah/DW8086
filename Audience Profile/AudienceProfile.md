@@ -34,4 +34,4 @@ Our Client name is Jesse Bolli, working as a Resource Management Specialist at H
 ### Legal/regulatory/policy considerations
 
 #### Contributorship Statement
-*  Nishi, Malik, Vincent and Vishekha have contributed to the Audience Profile Task.
+*  Malik, Nishi, Vincent and Vishekha have contributed to the Audience Profile Task.
