@@ -36,11 +36,12 @@ Turbidity is another measurement of water quality which focusing on the clarity 
 #### Organization Values/Mission
 The ultimate goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
 
-#### Expectationn
+#### Expectations
+Predicting and controlling amount of waste water discharge and industrial chemical discharge. Using the available data and applying data analytics designing a model which can help predicting the waste. 
 
 ### Communities (served by organization)
 
-Homestead monitos couple of parameters such as 	
+Homestead monitors couple of parameters such as 	
 * Air
 * Water
 * WildLife
