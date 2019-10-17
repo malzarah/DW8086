@@ -35,6 +35,8 @@ Turbidity is another measurement of water quality which focusing on the clarity 
 #### Organization Values/ Mission/Goals
 The ultimate goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
 
+#### Expectations, benefits (as relate to project)
+
 ### Communities (served by organization)
 
 Homestead monitos couple of parameters such as 	
@@ -58,8 +60,6 @@ Based on their reports following are the list of communities which are benefited
 
 ### Challanges
 The main challenges in cub creek water are to control the wastewater discharge and the industrial chemical discharges.  Flood water also negatively impacting the integrity of the cub creek water. Any biological or chemical changes impact directly to the human health and ecosystem.
-
-### Expectations, benefits (as relate to project)
 
 ### Legal/regulatory/policy considerations
 
