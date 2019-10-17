@@ -8,7 +8,7 @@
 ### **Overview of Contents**
 * [Work Plan](https://github.com/datawizard8086/DW8086/blob/master/Data%20Wizard's%20Work%20Plan.md)
 * [Background Research & Research Questions](https://github.com/datawizard8086/DW8086/blob/master/Background%20Research/Background%20Research%20and%20RQs.md)
-* [Audience Profile] (https://github.com/datawizard8086/DW8086/blob/master/Audience%20Profile/AudienceProfile.md)
+* [Audience Profile](https://github.com/datawizard8086/DW8086/blob/master/Audience%20Profile/AudienceProfile.md)
 * Data Cleaning Documentation
 * R Scripts 
 * R Plots
