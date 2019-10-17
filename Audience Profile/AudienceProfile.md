@@ -8,7 +8,7 @@ Below are the details regarding the Organization, Client's information and other
 Homestead National Monument of America (HOME) is a unit of the National Park Service. In 1966, the National Monument first began as a part of the National Register of Historic Places. The National Monument is 5 miles west of Beatrice, Gage County, and Nebraska. Under the Homestead Act, the site is one of the most successful lands claimed sites. HOME allows qualified volunteers to claim up to 160 acres of land owned by the federal government in exchange for five years of residence, cultivation, and improvement of the property. As a result, more than 270 million acres of land were given to the volunteers. This led to drastic changes in the quality of land which was much needed. The Homestead National Monument has a heritage center inside the park where visitors can learn more about the act and the organization by taking a tour of the interactive museum of the American homesteading. The Homestead Act holds significance for the westward expansion of the United States. It allows any volunteer to claim the land in exchange for taking care of it, keeping it free from contamination, and persuading people to take the best care of the land they live in. The Homestead Act brought far-reaching effects on the landscape and the lives of the people by preserving our resources for future generations.
 
 ### Client's Information
-Our client name is Jesse Bolli, working as a Resource Management Specialist at Homestead National Monument.All the data,which will be the intial backbone of our entire Projecct regarding the Monitoring the Water Quality was provided by Jesse.He has been very helpful, answering numerous questions we have asked him so far. He also provided us with few more spreadsheets consisting of recents observations as claimed.The additional spreadsheet will definitley help us make better analysis of our study goal.
+Jesse Bolli, a Resource Management Specialist at Homestead National Monument is the main stakeholder for this project. He provided multiple spreadsheets which documented the water quality observations from 2002 to 2017. These spreadsheets are the backbone of this project and he is our main contact for questions. He also provided us some extra information which include weather temperature, the precipitation, and more. This extra information will make it easier to perform data cleaning.
 
 ![Jesse Bolli](https://bloximages.chicago2.vip.townnews.com/beatricedailysun.com/content/tncms/assets/v3/editorial/e/97/e979bc38-d1ff-52de-a659-1dfccd4b0fc3/5cc34a2fb4cb7.image.jpg?resize=1700%2C1136)
 >Jesse Bolli, a Natural Resource Management Specialist at the Homestead National Monument of America, plants a peach tree to celebrate Labor Day. Since 2007, Homestead has an orchard that open for the public to visit.
@@ -34,17 +34,17 @@ Turbidity is another measurement of water quality which focusing on the clarity 
   * To maintain and protect the nearby land and keep it healthy for cultivation.
   
 #### Organization Values/Mission
-The ultimate goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
+The goal of the Homestead Act is to provide free land for volunteers in exchange for their residence, cultivation, and improvement of the land. This agenda helps maximized the use of natural lands and resources. Volunteers received land for free to live in and at the same time the natural resources, the land, and the water habitats were protected from many contaminations. Furthermore, volunteers received more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill their American dreams. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and for future generations to live in.
 
 #### Expectations
-Predicting and controlling amount of waste water discharge and industrial chemical discharge. Using the available data and applying data analytics, designing a model which can help predicting the waste. 
+Predicting and controlling amount of wastewater discharge and industrial chemical discharge. Using the available data and applying data analytics, designing a model which can help predicting the waste. 
 
 ### Communities (served by organization)
 
 Homestead monitors couple of parameters such as 	
 * Air
 * Water
-* WildLife
+* Wild Life
 * Fire Ecology
 * Land Cover
 
@@ -60,7 +60,7 @@ Based on their reports following are the list of communities which are benefited
 
 
 
-### Challanges
+### Challenges
 The main challenges in cub creek water are to control the wastewater discharge and the industrial chemical discharges.  Flood water also negatively impacting the integrity of the cub creek water. Any biological or chemical changes impact directly to the human health and ecosystem.
 
 
