@@ -17,7 +17,7 @@ The data set consist of 1061 rows and 53 columns. Data set includes data regardi
 Following are the issues that were observed in the data set provided by the stakeholder:
 * Rows with missing values or no values.
 * Columns that were supposed to hold numeric values just like other rows in the column but holds value such as NV instead of   NULL or be an empty cell.
-* Decimal places of decimal values is different for different cell values.
+* Number of Decimal places of decimal values is not uniformed along the dataset.
 
 ## Description of steps undertaken by the team to resolve the issues with Data set
 
