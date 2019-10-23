@@ -14,9 +14,16 @@ The data set consist of rows and columns. Data set includes data regarding water
 
 ## Issues with the Data Set
 
+Following are the issues that were observed in the data set provided by the stakeholder:
+* Rows with missing values or no values.
+* Columns that were supposed to hold numeric values just like other rows in the column but holds value such as NV instead of   NULL or be an empty cell.
+* Decimal places of decimal values is different for different cell values.
+
 ## Description of steps undertaken by the team to resolve the issues with Data set
 
 ## R script File
+
+![R Script File]()
 
 ### Contributionship statement
 Malik, Nishi,Vincent and Vishekha have contributed to the Data Cleaning and Documentation task.
