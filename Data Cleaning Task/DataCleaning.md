@@ -23,7 +23,7 @@ Following are the issues that were observed in the data set provided by the stak
 
 ## R script File
 
-![R Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/R%20File.R)
+[R Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/R%20File.R)
 
 ### Contributionship statement
 Malik, Nishi, Vincent and Vishekha have contributed to the Data Cleaning and Documentation task.
