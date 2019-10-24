@@ -21,6 +21,8 @@ Following are the issues that were observed in the data set provided by the stak
 
 ## Description of steps undertaken by the team to resolve the issues with Data set
 
+As per our data research questions, we have filtered our dataset from the year 2013 to the year 2017. We could see how the water quality between the two sites changes in these 5 years. We have removed some unnecessary columns to ensure the rationality concerning the data cleaning. Additionally, we have filled the mean value for temperature in the missing location as the temperature will not vary too much for a given season. Instead of using different names ( like NV,  -,  blank) for missing value/data, we have filled the data with NA for columns Turbidity, FloatAverage, Velocity, Nitrates, phosphates, Sulphate, Alkalinity. Also, we have converted all decimal values to 2 decimal points so that it will be easier to read and use the data.
+
 ## R script File
 
 [R Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/Team%203%20R%20File.R)
