@@ -15,7 +15,10 @@ The data set consist of 1061 rows and 53 columns. Data set includes data regardi
 ## Issues with the Data Set
 
 Following are the issues that were observed in the data set provided by the stakeholder:
+* There are three separate columns for a date (Day, Month, Year).
+* Unnecessary rows and columns are there.
 * Rows with missing values or no values.
+* Same name has written in different patterns in the column ObservationSite.
 * Columns that were supposed to hold numeric values just like other rows in the column but holds value such as NV instead of   NULL or be an empty cell.
 * Number of Decimal places of decimal values is not uniformed along the dataset.
 
