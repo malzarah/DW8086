@@ -40,7 +40,7 @@ These are the preliminary steps to create MasterWaterQualityEntryAdded.xlsx:
 
 
 ## R script File
-* [RMarkdown Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.Rmd)  
+
 * [HTML Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.html)
 
 ### Contributionship statement
