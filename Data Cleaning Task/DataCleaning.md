@@ -27,3 +27,6 @@ Following are the issues that were observed in the data set provided by the stak
 
 ### Contributionship statement
 Malik, Nishi, Vincent and Vishekha have contributed to the Data Cleaning and Documentation task.
+
+### ProofReader statement
+Nishi Mahato is the proofreader of this document.
