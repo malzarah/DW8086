@@ -39,10 +39,6 @@ View(newdata1)
 write.csv(newdata1,"reviseddata.csv")
 
 
-
-
-
-
 ## Capitalized first letter in observation site
 
 > capFirst<- function(s){
@@ -57,8 +53,6 @@ write.csv(newdata1,"reviseddata.csv")
 > data1<-newdata2
 > data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
 > data1$WaterTemp[which(is.na(data1$WaterTemp))]<-mean(data1$WaterTemp,na.rm= TRUE)
-
-
 
 
 #pH Column Missing Values
