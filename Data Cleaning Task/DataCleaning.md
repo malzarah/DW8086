@@ -10,7 +10,7 @@ The data set consist of 1061 rows and 53 columns. Data set includes data regardi
 
 ## Policy Constraints 
 
-The Homestead National Monument water quality project is an open project intended for public use. We have invited the Beatrice Middle School's students to study the water quality of cub creek. These data can be used for the data analysis but should not be used for commercializing and any means of business. The main intention of this project to maintain the quality of water, and analyze the problems if it's there and provide a better decision for a better future and cultivation.
+The Homestead National Monument water quality project is an open project intended for public use. We have invited the Beatrice Middle School's students to study the water quality of cub creek. These data can be used for the data analysis but should not be used for commercializing and any means of business. The main intention of this project to maintain the quality of water and analyze the problems if it's there and provide a better decision for a better future and cultivation.
 
 ## Metadata Description
 The Dataset that we our using for our project analysis, all the observations were recorded while monitoring the water quality against various contents found in water during the event. Dataset includes variables such as Precipitation Current Day, Water Temperature, pH level of the water, Conductivity, Turbidity, Nitrates, Total Phosphate, Alkalinity Average etc. The data set has observations that were recorded from the year 2002 till 2017.
@@ -40,8 +40,8 @@ These are the preliminary steps to create MasterWaterQualityEntryAdded.xlsx:
 
 
 ## R script File
-
-[R Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.html)
+* [RMarkdown Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.Rmd)  
+* [HTML Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.html)
 
 ### Contributionship statement
 Malik, Nishi, Vincent and Vishekha have contributed to the Data Cleaning and Documentation task.
