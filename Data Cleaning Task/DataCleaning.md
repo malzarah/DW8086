@@ -11,10 +11,11 @@ The data set consist of 1061 rows and 53 columns. Data set includes data regardi
 ## Policy Constraints 
 
 ## Metadata Description
-The Dataset that we our using for our project analysis, all the observations were recorded while monitoring the water quality against vaious contents found in water during the event. Dataset includes varibales such as Precipitation Current Day, Water Temperature, pH level of the water, Conductivity, Turbidity, Nitrates, Total Phosphate, Alkalinity Average etc. The data set has observations that were recorded from the year 2002 till 2017.
-As a part of data cleaning process, we selected observations that were recorded from the year 2013 till 2017.To monitor the quality of wate, follwoign factors were measured:
-temperarture of the water, pH level, conductivity, level of dissolved Oxygen found in water, content of Nitrates, phosphates, average of akalinity, volume of sand, slit,gravel etc, found in water. Each observation was made at a particular site on a specific date of the month and year.The degree of measure of each variable  is well described in the data set for instance the level of sand, slit and gravel was measured in pprecentage. While the level of Nitrates, Phosphates, Total Sulphates etc was foud in mg/L.
-The observations included in the dataset provides us with enough information to speculate the qaulity of water over the period of five years that is from 2013 till 2017 inclusively.
+The Dataset that we our using for our project analysis, all the observations were recorded while monitoring the water quality against various contents found in water during the event. Dataset includes variables such as Precipitation Current Day, Water Temperature, pH level of the water, Conductivity, Turbidity, Nitrates, Total Phosphate, Alkalinity Average etc. The data set has observations that were recorded from the year 2002 till 2017.
+As a part of data cleaning process, we selected observations that were recorded from the year 2013 till 2017.To monitor the quality of water, following factors were measured:
+temperature of the water, pH level, conductivity, level of dissolved Oxygen found in water, content of Nitrates, phosphates, average of alkalinity, volume of sand, slit, gravel, etc., found in water. Each observation was made at a site on a specific date of the month and year. The degree of measure of each variable is well described in the data set for instance the level of sand, slit and gravel was measured in percentage. While the level of Nitrates, Phosphates, Total Sulphates, etc. were found in mg/L.
+The observations included in the dataset provides us with enough information to speculate the quality of water over the period of five years that is from 2013 till 2017 inclusively.
+
 
 ## Issues with the Data Set
 
@@ -28,12 +29,13 @@ Following are the issues that were observed in the data set provided by the stak
 
 ## Description of steps undertaken by the team to resolve the issues with Data set
 
-As per our data research questions, we have filtered our dataset from the year 2013 to the year 2017. We could see how the water quality between the two sites changes in these 5 years. We have removed some unnecessary columns and rows to ensure the rationality about the data cleaning. We have combined the day, month , and year column into a single column named Date. We have simplified the column name to make it easier to use. Additionally, we have filled the mean value for temperature in the missing location as the temperature will not vary too much for a given season. In the column ObservationSite, same name has written in different patterns so we changed it into single pattern (north -> North, west -> West). Also, we have converted all decimal values to two decimal points so that it will be easier to read and use the data.
+As per our data research questions, we have filtered our dataset from the year 2013 to the year 2017. We could see how the water quality between the two sites changes in these 5 years. We have removed some unnecessary columns and rows to ensure the rationality about the data cleaning. We have combined the day, month, and year column into a single column named Date. We have simplified the column name to make it easier to use. Additionally, we have filled the mean value for temperature in the missing location as the temperature will not vary too much for a given season. In the column ObservationSite, same name has written in different patterns, so we changed it into single pattern (north -> North, west -> West). Also, we have converted all decimal values to two decimal points so that it will be easier to read and use the data.
 
-These are the premilinary steps to create MasterWaterQualityEntryAdded.xlsx:  
+These are the preliminary steps to create MasterWaterQualityEntryAdded.xlsx:  
 - Filled in Temperature and Precipitation by using extra spreadsheets from Jesse  
 - Calculated the mean for pH, Conductivity, and DissolvedOxygen columns  
-- Filled empty cells of pH, Conductivity, and Dissolved columns with the calculated means 
+- Filled empty cells of pH, Conductivity, and Dissolved columns with the calculated means
+
 
 ## R script File
 
