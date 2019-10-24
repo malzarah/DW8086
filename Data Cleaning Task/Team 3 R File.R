@@ -54,6 +54,16 @@ write.csv(newdata1,"reviseddata.csv")
 > data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
 > data1$WaterTemp[which(is.na(data1$WaterTemp))]<-mean(data1$WaterTemp,na.rm= TRUE)
 
+## Description 
+/*
+First in the R file we read the Excel file, you need to change the path to match up with the directory where the excel file is located.
+Change the Path, next we filter for the year 2012 and 2018. Third step unnecessary columns are removed. Fourth step all header names are renamed to remain consistent.
+Finally once the data set has all the necessary felds we need some rows which have NV value they are replaced with NA.  Few values are converted to numeric and using the
+write.csv command we store the file in CSV format.
+
+For Replication:-
+Please downlaod this R file and change the path for the excel sheet and after running the R code we can get the revised dataset which is cleaned and can be used for further analysis.
 
 
+*/
 
