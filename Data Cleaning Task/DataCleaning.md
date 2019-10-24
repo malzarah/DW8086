@@ -11,6 +11,10 @@ The data set consist of 1061 rows and 53 columns. Data set includes data regardi
 ## Policy Constraints 
 
 ## Metadata Description
+The Dataset that we our using for our project analysis, all the observations were recorded while monitoring the water quality against vaious contents found in water during the event. Dataset includes varibales such as Precipitation Current Day, Water Temperature, pH level of the water, Conductivity, Turbidity, Nitrates, Total Phosphate, Alkalinity Average etc. The data set has observations that were recorded from the year 2002 till 2017.
+As a part of data cleaning process, we selected observations that were recorded from the year 2013 till 2017.To monitor the quality of wate, follwoign factors were measured:
+temperarture of the water, pH level, conductivity, level of dissolved Oxygen found in water, content of Nitrates, phosphates, average of akalinity, volume of sand, slit,gravel etc, found in water. Each observation was made at a particular site on a specific date of the month and year.
+The observations included in the dataset provides us with enough information to speculate the qaulity of water over the period of five years that is from 2013 till 2017 inclusively.
 
 ## Issues with the Data Set
 
