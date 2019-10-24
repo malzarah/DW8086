@@ -28,13 +28,6 @@ names (newdata2)[14]<- "Sulfate"
 names (newdata2)[15]<- "Alkalinity"
 
 
-##Use after put in the means and calculations to fill empty cells and change nv cells to NA
-Newdata2[newdata2=="nv"]<-NA
-Newdata2[newdata2==""]<-NA
-
-##View function to view value of the table
-STR(newdata1)
-
 ##Write Function
 write.csv(newdata1,"reviseddata.csv")
 
@@ -53,6 +46,51 @@ write.csv(newdata1,"reviseddata.csv")
 > data1<-newdata2
 > data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
 > data1$WaterTemp[which(is.na(data1$WaterTemp))]<-mean(data1$WaterTemp,na.rm= TRUE)
+
+## convert the data in numeric form and upto 2 decimal points
+data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
+data1$WaterTemp<-round(data1$WaterTemp,2)
+
+data1$TempF=as.numeric(as.character(data1$TempF))
+data1$TempF<-round(data1$TempF,2)
+
+data1$Precipitation=as.numeric(as.character(data1$Precipitation))
+data1$Precipitation<-round(data1$Precipitation,2)
+
+data1$pH=as.numeric(as.character(data1$pH))
+data1$pH<-round(data1$pH,2)
+
+data1$Conductivity=as.numeric(as.character(data1$Conductivity))
+data1$Conductivity<-round(data1$Conductivity,2)
+
+data1$DissolvedOxygen=as.numeric(as.character(data1$DissolvedOxygen))
+data1$DissolvedOxygen<-round(data1$DissolvedOxygen,2)
+
+data1$Turbidity=as.numeric(as.character(data1$Turbidity))
+data1$Turbidity<-round(data1$Turbidity,2)
+
+data1$FloatAverage=as.numeric(as.character(data1$FloatAverage))
+data1$FloatAverage<-round(data1$FloatAverage,2)
+
+data1$Velocity=as.numeric(as.character(data1$Velocity))
+data1$Velocity<-round(data1$Velocity,2)
+
+data1$Nitrates=as.numeric(as.character(data1$Nitrates))
+data1$Nitrates<-round(data1$Nitrates,2)
+
+data1$Phosphates=as.numeric(as.character(data1$Phosphates))
+data1$Phosphates<-round(data1$Phosphates,2)
+
+data1$Sulfate=as.numeric(as.character(data1$Sulfate))
+data1$Sulfate<-round(data1$Sulfate,2)
+
+data1$Alkalinity=as.numeric(as.character(data1$Alkalinity))
+data1$Alkalinity<-round(data1$Alkalinity,2)
+
+##Write Function
+write.csv(data1,"/Users/rajeshkumarpanigrahi/Desktop/Data Cleaning/cleanData.csv")
+
+
 
 ## Description 
 /*
