@@ -10,7 +10,7 @@
 * [Background Research & Research Questions](https://github.com/datawizard8086/DW8086/blob/master/Background%20Research/Background%20Research%20and%20RQs.md)
 * [Audience Profile](https://github.com/datawizard8086/DW8086/blob/master/Audience%20Profile/AudienceProfile.md)
 * [Data Cleaning Documentation](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.Rmd)
-* R Scripts 
+* [R Scripts] (https://github.com/datawizard8086/DW8086/tree/master/R%20Scripts)
 * R Plots
 * Project Summary
 * Summary of Contributorship
