@@ -7,10 +7,10 @@ output: html_document
 
 -------------------------------------#Analyis of pH value of Water for North site#---------------------------------------------------------
 
-# Number of observations and number of variables in the data set
+* Number of observations and number of variables in the data set
 dim(North_Site)
-# Output
-# 264 rows   8columns
+* Output
+* 264 rows   8columns
 
 # names of all variables in the data set
 names(North_Site)
