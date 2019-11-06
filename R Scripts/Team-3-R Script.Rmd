@@ -120,10 +120,11 @@ MSE   <- SSE / dfE
 # 3.503382
 (pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
 # 0.06235779
-```
 # Since P-value is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
 # Also,The R-squared is 0.009429, so the model can explain 0.9% % of the variability of the response variable which is very low.
+```
+
 
 ```{r}
 #Building Model
@@ -164,10 +165,11 @@ MSE   <- SSE / dfE
 # 0.05584194
 (pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
 # 0.8133776
-```
 # Since P-value  is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
 # Also,The R-squared is -0.003603, so the model can explain -0.3% % of the variability of the response variable which is very low and negative.
+```
+
 
 -------------------------------------------#Analyis of pH value of Water for West site#----------------------------------------------------
 
@@ -275,9 +277,10 @@ MSE   <- SSE / dfE
 # 0.9086939
 (pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
 # 0.3423774
-```
 # Since P-value  is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
+```
+
 
 ```{r}
 #Building Model
@@ -316,10 +319,11 @@ MSE   <- SSE / dfE
 # 2.460743
 (pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
 # 0.1193568
-```
 # Since P-value is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
 # Also,The R-squared is 0.01193, so the model can explain 1.1% of the variability of the response variable which is very low.
+```
+
 
 ___________________________________________________________________________________________________________________________________________
 
