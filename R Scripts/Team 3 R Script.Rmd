@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Team3 R Script"
 author: "Vishekha, Vincent, Nishi and Malik"
 date: "11/5/2019"
 output: html_document
@@ -9,18 +9,18 @@ output: html_document
 
 # Number of observations and number of variables in the data set
 dim(North_Site)
-#Output
-#264 rows   8columns
+# Output
+# 264 rows   8columns
 
 # names of all variables in the data set
 names(North_Site)
-#Output
+# Output
 "Year"             "Site"             "pH"               "Dissolved Oxygen" "Nitrates"         "Total phosphates" "Sulfate"         
 "Alkalinity" 
 
 # Values of the variables in string format 
 str(North_Site)
-#Output
+# Output
 $ Year            : num  2013 2013 2013 2013 2013 ...
 $ Site            : chr  "North" "North" "North" "North" ...
 $ pH              : num  8.8 8.7 7.9 8.6 8.7 8.4 8.5 8.1 8.1 8 ...
@@ -50,7 +50,7 @@ View(North_Site1)
 
 # calculating covariance
 cor(North_Site1)
-#Output
+# Output
                     Year       pH          Dissolved Oxygen  Nitrates     Total phosphates  Sulfate    Alkalinity
 Year              1.00000000 -0.18774165     -0.081613373  0.15406662       0.04002999 -0.099179007  0.09356150
 pH               -0.18774165  1.00000000      0.114870561 -0.21096814      -0.04136372  0.020577350 -0.01459766
