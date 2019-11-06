@@ -359,3 +359,205 @@ summary(tempph)
 ##Results show that there is no linear relationship
 
 ```
+
+___________________________________________________________________________________________________________________________________________
+
+
+```{r}
+install.packages("readxl")
+library("readxl")
+```
+
+```{r}
+dataset <- read_excel("/users/rajeshkumarpanigrahi/Downloads/Master Water Quality Entry.xlsx", sheet="Sheet1", skip = 2,col_types =NULL ,col_names = TRUE)
+
+dataset1<- dataset [-c (1),]
+
+dataset_yr <- subset(dataset1, dataset1$Year>2012 & dataset1$Year<2018)
+
+dataset_yr$Date <- as.Date(with(dataset_yr, paste(Year, Month, Day,sep="-")), "%Y-%m-%d")
+
+data <- dataset_yr [,c(5,11,18)]
+
+names (data)[1]<- "ObservationSite"
+
+```
+
+```{r}
+capFirst<- function(s){
+paste(toupper(substring(s, 1, 1)), substring(s, 2), sep = "")
+}
+data$ObservationSite<-capFirst(data$ObservationSite)
+
+data1<- data
+data1$pH=as.numeric(as.character(data1$pH))
+data1$pH<-round(data1$pH,2)
+data1$`E. coli`=as.numeric(as.character(data1$`E. coli`))
+```
+
+```{r}
+str(data1)
+```
+
+
+```{r}
+summary(data1)
+```
+
+```{r}
+summary(data1$pH)
+```
+
+```{r}
+summary(data1$`E. coli`)
+```
+
+```{r}
+data2 <- subset(data1, data1$ObservationSite!="NEGP" & data1$ObservationSite!="WGP")
+siteData <- split(data2,data2$ObservationSite)
+siteData
+```
+
+```{r}
+str(siteData$North)
+```
+
+```{r}
+str(siteData$West)
+```
+
+```{r}
+summary(siteData$North$pH)
+```
+
+```{r}
+summary(siteData$North$`E. coli`)
+summary(siteData$West$pH)
+summary(siteData$West$`E. coli`)
+summary(siteData$North)
+summary(siteData$West)
+```
+
+```{r}
+mean(siteData$North$pH, na.rm = TRUE)
+mean(siteData$North$`E. coli`, na.rm = TRUE)
+mean(siteData$West$pH,na.rm = TRUE)
+mean(siteData$West$`E. coli`,na.rm = TRUE)
+
+```
+
+```{r}
+sd(siteData$North$pH, na.rm = TRUE)
+sd(siteData$North$`E. coli`, na.rm = TRUE)
+sd(siteData$West$pH,na.rm = TRUE)
+sd(siteData$West$`E. coli`,na.rm = TRUE)
+
+```
+
+```{r}
+min(siteData$North$pH, na.rm = TRUE)
+min(siteData$North$`E. coli`, na.rm = TRUE)
+min(siteData$West$pH,na.rm = TRUE)
+min(siteData$West$`E. coli`,na.rm = TRUE)
+
+```
+
+```{r}
+max(siteData$North$pH, na.rm = TRUE)
+max(siteData$North$`E. coli`, na.rm = TRUE)
+max(siteData$West$`E. coli`,na.rm = TRUE)
+max(siteData$West$pH,na.rm = TRUE)
+
+```
+
+```{r}
+range(siteData$North$pH, na.rm = TRUE)
+range(siteData$North$`E. coli`, na.rm = TRUE)
+range(siteData$West$pH,na.rm = TRUE)
+range(siteData$West$`E. coli`,na.rm = TRUE)
+
+```
+
+```{r}
+quantile(siteData$North$pH, na.rm = TRUE)
+quantile(siteData$North$`E. coli`, na.rm = TRUE)
+quantile(siteData$West$pH,na.rm = TRUE)
+quantile(siteData$West$`E. coli`,na.rm = TRUE)
+
+```
+
+```{r}
+cor(siteData$North$pH, siteData$North$`E. coli`, use = "complete.obs")
+cor(siteData$West$pH, siteData$West$`E. coli`, use = "complete.obs")
+
+```
+
+```{r}
+lm(siteData$North$pH ~ siteData$North$`E. coli`)
+# output
+Call:
+  lm(formula = siteData$North$pH ~ siteData$North$`E. coli`)
+
+Coefficients:
+  (Intercept)  siteData$North$`E. coli`  
+7.987e+00                -1.342e-06  
+
+# input
+lm(siteData$West$pH ~ siteData$West$`E. coli`)
+
+# outpt
+Call:
+  lm(formula = siteData$West$pH ~ siteData$West$`E. coli`)
+
+Coefficients:
+  (Intercept)  siteData$West$`E. coli`  
+8.1624245               -0.0000456  
+```
+
+```{r}
+# input
+anova(lm(siteData$North$pH ~ siteData$North$`E. coli`, data =siteData$North))
+
+# output 
+Analysis of Variance Table
+
+Response: siteData$North$pH
+Df Sum Sq  Mean Sq F value Pr(>F)
+siteData$North$`E. coli`  1 0.0002 0.000162  0.0017 0.9672
+Residuals                38 3.5908 0.094496  
+```
+
+```{r}
+# input
+anova(lm(siteData$West$pH ~ siteData$West$`E. coli`, data =siteData$West))
+
+# output
+Analysis of Variance Table
+
+Response: siteData$West$pH
+Df Sum Sq Mean Sq F value  Pr(>F)  
+siteData$West$`E. coli`  1 0.5602 0.56023  4.5624 0.03936 *
+  Residuals               37 4.5434 0.12279                  
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```
+
+```{r}
+# input
+aov(siteData$North$pH ~ siteData$North$`E. coli`, data =siteData$North )
+
+# output
+Call:
+  aov(formula = siteData$North$pH ~ siteData$North$`E. coli`, data = siteData$North)
+
+Terms:
+  siteData$North$`E. coli` Residuals
+Sum of Squares                  0.000162  3.590838
+Deg. of Freedom                        1        38
+
+Residual standard error: 0.3074016
+Estimated effects may be unbalanced
+101 observations deleted due to missingness
+```
+
+
