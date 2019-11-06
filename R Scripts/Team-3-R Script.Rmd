@@ -364,31 +364,40 @@ ________________________________________________________________________________
 
 
 ```{r}
+# Installing the library packages
 install.packages("readxl")
 library("readxl")
 ```
 
 ```{r}
+# Import the excel file in R
 dataset <- read_excel("/users/rajeshkumarpanigrahi/Downloads/Master Water Quality Entry.xlsx", sheet="Sheet1", skip = 2,col_types =NULL ,col_names = TRUE)
 
+# Removing the first column as it contains only units
 dataset1<- dataset [-c (1),]
 
+# Filtering the dataset from 2013 to 2017
 dataset_yr <- subset(dataset1, dataset1$Year>2012 & dataset1$Year<2018)
 
+# Combining Day, Month, & Year columns into a single Date column
 dataset_yr$Date <- as.Date(with(dataset_yr, paste(Year, Month, Day,sep="-")), "%Y-%m-%d")
 
+# keeping the obsrvation site, pH and Ecoli in my dataset
 data <- dataset_yr [,c(5,11,18)]
 
+# Renaming the column name
 names (data)[1]<- "ObservationSite"
 
 ```
 
 ```{r}
+# Capitalized first letter in observation site
 capFirst<- function(s){
 paste(toupper(substring(s, 1, 1)), substring(s, 2), sep = "")
 }
 data$ObservationSite<-capFirst(data$ObservationSite)
 
+# convert the data in numeric form and upto 2 decimal points
 data1<- data
 data1$pH=as.numeric(as.character(data1$pH))
 data1$pH<-round(data1$pH,2)
@@ -396,37 +405,45 @@ data1$`E. coli`=as.numeric(as.character(data1$`E. coli`))
 ```
 
 ```{r}
+# Display the structure of dataset
 str(data1)
 ```
 
 
 ```{r}
+# summary of the dataset
 summary(data1)
 ```
 
 ```{r}
+# summary of pH value
 summary(data1$pH)
 ```
 
 ```{r}
+# summary of E.coli value
 summary(data1$`E. coli`)
 ```
 
 ```{r}
+# remove the data for NEGP and WGP site and split the dataset into 2 by north and west site
 data2 <- subset(data1, data1$ObservationSite!="NEGP" & data1$ObservationSite!="WGP")
 siteData <- split(data2,data2$ObservationSite)
 siteData
 ```
 
 ```{r}
+# display the structure of north site dataset
 str(siteData$North)
 ```
 
 ```{r}
+# display the structure of west site dataset
 str(siteData$West)
 ```
 
 ```{r}
+
 summary(siteData$North$pH)
 ```
 
