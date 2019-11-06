@@ -145,7 +145,7 @@ MSE   <- SSE / dfE
 (pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
 0.8133776
 
--------------------------------------------#Analyis of pH value of Water for West site#----------------------------------------------------
+-------------------------------------------# Analyis of pH value of Water for West site #-------------------------------------
 
 # Number of observations and number of variables in the data set
 dim(West_Site)
