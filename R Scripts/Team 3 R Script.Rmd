@@ -1,0 +1,358 @@
+---
+title: "Untitled"
+author: "Vishekha, Vincent, Nishi and Malik"
+date: "11/5/2019"
+output: html_document
+---
+
+-------------------------------------#Analyis of pH value of Water for North site#---------------------------------------------------------
+
+# Number of observations and number of variables in the data set
+dim(North_Site)
+#Output
+#264 rows   8columns
+
+# names of all variables in the data set
+names(North_Site)
+#Output
+"Year"             "Site"             "pH"               "Dissolved Oxygen" "Nitrates"         "Total phosphates" "Sulfate"         
+"Alkalinity" 
+
+# Values of the variables in string format 
+str(North_Site)
+#Output
+$ Year            : num  2013 2013 2013 2013 2013 ...
+$ Site            : chr  "North" "North" "North" "North" ...
+$ pH              : num  8.8 8.7 7.9 8.6 8.7 8.4 8.5 8.1 8.1 8 ...
+$ Dissolved Oxygen: num  8.35 8.35 10 13 10 10 11 4.52 5.5 6.52 ...
+$ Nitrates        : num  1.32 0.22 2.64 0.0862 4.4 ...
+$ Total phosphates: num  0.2 0.52 0.36 0.52 0.22 0.54 0.6 0.52 0.52 0.52 ...
+$ Sulfate         : num  75 55 57.5 57.5 50 50 51.5 59 65 52.5 ...
+$ Alkalinity      : num  340 280 300 280 280 280 280 270 220 280 ...
+
+#Summary of the data set
+summary(North_Site)
+#Output
+Year          Site                 pH        Dissolved Oxygen    Nitrates      Total phosphates    Sulfate         Alkalinity   
+Min.   :2013   Length:264         Min.   :5.500   Min.   :  1.46   Min.   : 0.000   Min.   : 0.000   Min.   :  0.00   Min.   : 30.5  
+1st Qu.:2014   Class :character   1st Qu.:7.900   1st Qu.:  7.28   1st Qu.: 0.966   1st Qu.: 0.460   1st Qu.: 55.41   1st Qu.:243.4  
+Median :2015   Mode  :character   Median :8.100   Median :  9.00   Median : 1.320   Median : 0.700   Median : 69.53   Median :273.5  
+Mean   :2015                      Mean   :8.069   Mean   : 10.55   Mean   : 2.191   Mean   : 1.516   Mean   : 71.48   Mean   :275.7  
+3rd Qu.:2016                      3rd Qu.:8.325   3rd Qu.: 11.00   3rd Qu.: 2.695   3rd Qu.: 1.100   3rd Qu.: 76.39   3rd Qu.:310.0  
+Max.   :2017                      Max.   :9.400   Max.   :105.60   Max.   :44.000   Max.   :50.000   Max.   :401.00   Max.   :470.0  
+
+
+
+#Drop Site Inorder to Calculate Covariance
+North_Site1 <- North_Site[-2]
+View(North_Site1)
+
+
+#calculating covariance
+cor(North_Site1)
+#Output
+                    Year       pH          Dissolved Oxygen  Nitrates     Total phosphates  Sulfate    Alkalinity
+Year              1.00000000 -0.18774165     -0.081613373  0.15406662       0.04002999 -0.099179007  0.09356150
+pH               -0.18774165  1.00000000      0.114870561 -0.21096814      -0.04136372  0.020577350 -0.01459766
+Dissolved Oxygen -0.08161337  0.11487056      1.000000000 -0.05653293      -0.03347364  0.007107508 -0.13964730
+Nitrates          0.15406662 -0.21096814     -0.056532925  1.00000000       0.00338999 -0.076435563  0.08721959
+Total phosphates  0.04002999 -0.04136372     -0.033473636  0.00338999       1.00000000 -0.086966164 -0.06044586
+Sulfate          -0.09917901  0.02057735      0.007107508 -0.07643556      -0.08696616  1.000000000 -0.06531749
+Alkalinity        0.09356150 -0.01459766     -0.139647298  0.08721959      -0.06044586 -0.065317485  1.00000000
+
+#pH has negative correlation of -0.04136372 with Total Phosphate for North Site
+#pH has negative correlation of -0.21096814 with Nitrates for North Site
+
+
+#Building Model
+lm1=lm(formula = North_Site$pH~North_Site$`Dissolved Oxygen`)
+summary(lm1)
+
+#Output
+Call:
+  lm(formula = North_Site$pH ~ North_Site$`Dissolved Oxygen`)
+
+Residuals:
+  Min       1Q   Median       3Q      Max 
+-2.53281 -0.16753  0.03272  0.25608  1.34558 
+
+Coefficients:
+  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                   8.010588   0.042980 186.378   <2e-16 ***
+  North_Site$`Dissolved Oxygen` 0.005555   0.002968   1.872   0.0624 .  
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4781 on 262 degrees of freedom
+Multiple R-squared:  0.0132,	Adjusted R-squared:  0.009429 
+F-statistic: 3.503 on 1 and 262 DF,  p-value: 0.06236
+
+
+
+# calculate the regression ANOVA 
+SSTotal <- var( North_Site$pH ) * (nrow(North_Site)-1)
+SSE     <- sum( lm1$resid^2 )
+SSreg   <- SSTotal - SSE
+dfE   <- lm1$df.residual
+dfReg <- nrow(North_Site) - 1 - dfE
+MSreg <- SSreg / dfReg
+MSE   <- SSE / dfE
+(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
+3.503382
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
+0.06235779
+#Since P-value is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
+#Therefore we conclude that changes in the predictor are not associated with changes in the response.
+#Also,The R-squared is 0.009429, so the model can explain 0.9% % of the variability of the response variable which is very low.
+
+#Building Model
+lm2=lm(formula = North_Site$pH~North_Site$Alkalinity)
+summary(lm2)
+
+#Output
+Call:
+  lm(formula = North_Site$pH ~ North_Site$Alkalinity)
+
+Residuals:
+  Min       1Q   Median       3Q      Max 
+-2.57322 -0.17261  0.03007  0.26955  1.33701 
+
+Coefficients:
+  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)            8.1033583  0.1474554  54.955   <2e-16 ***
+  North_Site$Alkalinity -0.0001238  0.0005240  -0.236    0.813    
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4813 on 262 degrees of freedom
+Multiple R-squared:  0.0002131,	Adjusted R-squared:  -0.003603 
+F-statistic: 0.05584 on 1 and 262 DF,  p-value: 0.8134
+
+#Since P-value  is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
+#Therefore we conclude that changes in the predictor are not associated with changes in the response.
+#Also,The R-squared is -0.003603, so the model can explain -0.3% % of the variability of the response variable which is very low and negative.
+
+# calculate the regression ANOVA 
+SSTotal <- var( North_Site$pH ) * (nrow(North_Site)-1)
+SSE     <- sum( lm2$resid^2 )
+SSreg   <- SSTotal - SSE
+dfE   <- lm2$df.residual
+dfReg <- nrow(North_Site) - 1 - dfE
+MSreg <- SSreg / dfReg
+MSE   <- SSE / dfE
+(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
+0.05584194
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
+0.8133776
+
+-------------------------------------------#Analyis of pH value of Water for West site#----------------------------------------------------
+
+# Number of observations and number of variables in the data set
+dim(West_Site)
+#Output
+#122 rows   8columns
+
+# names of all variables in the data set
+names(West_Site)
+#Output
+"Year"             "Site"             "pH"               "Dissolved Oxygen" "Nitrates"         "Total phosphates" "Sulfate"         
+"Alkalinity" 
+
+# Values of the variables in string format 
+str(West_Site)
+
+#output
+$ Year            : num  2013 2013 2013 2013 2013 ...
+$ Site            : chr  "West" "West" "West" "West" ...
+$ pH              : num  8.14 7.9 9.1 8.9 8.8 7.1 7.9 8.1 8 8.3 ...
+$ Dissolved Oxygen: num  12 10 20 8.35 14.4 5.5 7.5 7.45 6.42 8 ...
+$ Nitrates        : num  1.1 1.32 2.2 0 0.484 1.2 1.2 1.2 1.2 1.32 ...
+$ Total phosphates: num  5.4 0.18 0.8 0.0858 0.6 5.4 5.4 5.4 5.4 0.62 ...
+$ Sulfate         : num  64 70 70 60 60 ...
+$ Alkalinity      : num  220 240 220 240 260 ...
+
+#Summary of the data set
+summary(West_Site)
+
+#Output
+Year          Site                 pH        Dissolved Oxygen     Nitrates     Total phosphates    Sulfate         Alkalinity   
+Min.   :2013   Length:122         Min.   :5.500   Min.   :  1.460   Min.   :0.000   Min.   : 0.020   Min.   :  0.00   Min.   : 30.5  
+1st Qu.:2014   Class :character   1st Qu.:8.000   1st Qu.:  7.463   1st Qu.:0.759   1st Qu.: 0.460   1st Qu.: 55.62   1st Qu.:243.4  
+Median :2015   Mode  :character   Median :8.125   Median : 10.000   Median :1.200   Median : 0.740   Median : 70.00   Median :264.7  
+Mean   :2015                      Mean   :8.108   Mean   : 11.899   Mean   :1.266   Mean   : 1.651   Mean   : 71.70   Mean   :265.5  
+3rd Qu.:2016                      3rd Qu.:8.400   3rd Qu.: 11.188   3rd Qu.:1.500   3rd Qu.: 1.575   3rd Qu.: 76.39   3rd Qu.:288.8  
+Max.   :2017                      Max.   :9.300   Max.   :105.600   Max.   :4.400   Max.   :17.000   Max.   :162.50   Max.   :470.0 
+
+
+#Drop Site Inorder to Calculate Covariance
+West_Site1 <- West_Site[-2]
+View(West_Site1)
+
+
+#calculating covariance
+cor(West_Site1)
+
+#Output
+                    Year          pH         Dissolved Oxygen Nitrates   Total phosphates Sulfate  Alkalinity
+Year              1.00000000 -0.20411533      -0.11677042 -0.02839873       0.07698459 -0.26193095  0.11870800
+pH               -0.20411533  1.00000000       0.08669220  0.04200224      -0.20965277  0.02921596  0.14175378
+Dissolved Oxygen -0.11677042  0.08669220       1.00000000  0.01463696      -0.08102482  0.04082251 -0.12785032
+Nitrates         -0.02839873  0.04200224       0.01463696  1.00000000      -0.01055471 -0.13231984 -0.14887301
+Total phosphates  0.07698459 -0.20965277      -0.08102482 -0.01055471       1.00000000 -0.22980871 -0.03633566
+Sulfate          -0.26193095  0.02921596       0.04082251 -0.13231984      -0.22980871  1.00000000 -0.18964795
+Alkalinity        0.11870800  0.14175378      -0.12785032 -0.14887301      -0.03633566 -0.18964795  1.00000000
+
+#pH has negative correlation of -0.20965277 with Total phosphate for West Site
+
+
+#Building Model
+lm3=lm(formula = West_Site$pH~West_Site$`Dissolved Oxygen`)
+summary(lm3)
+
+#Output
+
+Call:
+  lm(formula = West_Site$pH ~ West_Site$`Dissolved Oxygen`)
+
+Residuals:
+  Min       1Q   Median       3Q      Max 
+-2.58104 -0.15099  0.01487  0.30441  1.18132 
+
+Coefficients:
+  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                  8.067357   0.066166 121.927   <2e-16 ***
+  West_Site$`Dissolved Oxygen` 0.003422   0.003590   0.953    0.342    
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5581 on 120 degrees of freedom
+Multiple R-squared:  0.007516,	Adjusted R-squared:  -0.0007552 
+F-statistic: 0.9087 on 1 and 120 DF,  p-value: 0.3424
+
+
+# calculate the regression ANOVA 
+SSTotal <- var( West_Site$pH ) * (nrow(West_Site)-1)
+SSE     <- sum( lm3$resid^2 )
+SSreg   <- SSTotal - SSE
+dfE   <- lm3$df.residual
+dfReg <- nrow(West_Site) - 1 - dfE
+MSreg <- SSreg / dfReg
+MSE   <- SSE / dfE
+(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
+0.9086939
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
+0.3423774
+
+#Since P-value  is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
+#Therefore we conclude that changes in the predictor are not associated with changes in the response.
+
+#Building Model
+lm4=lm(formula = West_Site$pH~West_Site$Alkalinity)
+summary(lm4)
+
+#Output
+Call:
+  lm(formula = West_Site$pH ~ West_Site$Alkalinity)
+
+Residuals:
+  Min       1Q   Median       3Q      Max 
+-2.57613 -0.16532  0.02387  0.31488  1.22387 
+
+Coefficients:
+  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)          7.7244730  0.2496396  30.943   <2e-16 ***
+  West_Site$Alkalinity 0.0014449  0.0009211   1.569    0.119    
+---
+  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.5546 on 120 degrees of freedom
+Multiple R-squared:  0.02009,	Adjusted R-squared:  0.01193 
+F-statistic: 2.461 on 1 and 120 DF,  p-value: 0.1194
+
+# calculate the regression ANOVA 
+SSTotal <- var( West_Site$pH ) * (nrow(West_Site)-1)
+SSE     <- sum( lm4$resid^2 )
+SSreg   <- SSTotal - SSE
+dfE   <- lm4$df.residual
+dfReg <- nrow(West_Site) - 1 - dfE
+MSreg <- SSreg / dfReg
+MSE   <- SSE / dfE
+(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
+2.460743
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
+0.1193568
+
+#Since P-value is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
+#Therefore we conclude that changes in the predictor are not associated with changes in the response.
+#Also,The R-squared is 0.01193, so the model can explain 1.1% of the variability of the response variable which is very low.
+
+___________________________________________________________________________________________________________________________________________
+
+setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
+library(readxl)
+library(dplyr)
+
+##Bring in dataset
+dataset <- read.csv("VH-Dataset.csv")
+
+
+str(dataset)
+
+##Checking for suspicious data
+range(dataset$TempF)
+range(dataset$Precipitation)
+range(dataset$WaterTemp)
+range(dataset$pH, na.rm = TRUE)
+range(dataset$Conductivity)
+range(dataset$Turbidity, na.rm = TRUE)
+
+##Remove unnecessary columns
+beforesplit <-dataset[,-c(1)]
+
+##Create subset for data from West site
+west <- subset(beforesplit,beforesplit$ObservationSite == "West")
+
+##Create subset for data from North site
+north <-subset(beforesplit,beforesplit$ObservationSite == "North")
+
+
+##Quick summary
+summary(beforesplit)
+summary(west)
+summary(north)
+
+
+##Linear regression to find out the connection between Turbidity and Conductivity
+attach(dataset)
+plot(Turbidity ~ Conductivity)
+reg <- lm(Turbidity ~ Conductivity)
+abline(reg)
+summary(reg)
+##Results show that there is no linear relationship
+
+
+##Linear regression to find out the connection between Turbidity and Conductivity (for west site)
+attach(west)
+plot(Turbidity ~ Conductivity)
+regwest <- lm(Turbidity ~ Conductivity)
+abline(regwest)
+summary(regwest)
+##Results show that there is no linear relationship
+
+
+##Linear regression to find out the connection between Turbidity and Conductivity (for north site)
+attach(east)
+plot(Turbidity ~ Conductivity)
+regeast <- lm(Turbidity ~ Conductivity)
+abline(regeast)
+summary(regeast)
+##Results show that there is no linear relationship
+
+
+##Linear regression to find out the connection between TempF and pH
+attach(dataset)
+plot(TempF ~ pH)
+tempph <- lm(TempF ~ pH)
+abline(tempph)
+summary(tempph)
+##Results show that there is no linear relationship
