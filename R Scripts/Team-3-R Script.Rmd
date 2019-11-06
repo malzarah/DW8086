@@ -86,7 +86,6 @@ Alkalinity        0.09356150 -0.01459766     -0.139647298  0.08721959      -0.06
 #Building Model
 lm1=lm(formula = North_Site$pH~North_Site$`Dissolved Oxygen`)
 summary(lm1)
-```
 # Output
 Call:
   lm(formula = North_Site$pH ~ North_Site$`Dissolved Oxygen`)
@@ -105,6 +104,8 @@ Coefficients:
 Residual standard error: 0.4781 on 262 degrees of freedom
 Multiple R-squared:  0.0132,	Adjusted R-squared:  0.009429 
 F-statistic: 3.503 on 1 and 262 DF,  p-value: 0.06236
+```
+
 
 
 ```{r}
