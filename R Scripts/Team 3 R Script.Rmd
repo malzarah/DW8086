@@ -5,7 +5,7 @@ date: "11/5/2019"
 output: html_document
 ---
 
--------------------------------------#Analyis of pH value of Water for North site#---------------------------------------------------------
+-------------------------------------#Analyis of pH value of Water for North site#--------------------------------------------
 
 # Number of observations and number of variables in the data set
 dim(North_Site)
