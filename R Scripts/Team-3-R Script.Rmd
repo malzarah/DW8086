@@ -5,75 +5,45 @@ date: "11/5/2019"
 output: html_document
 ---
 
--------------------------------------#Analysis of pH value of Water for North site#-------------------------------------------
+## Analysis of pH level on the North site
+
+For this section, we are looking at the correlation between pH level and nutrients in the North site.
 
 ```{r}
+setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
+library(readxl)
+library(dplyr)
 
-# Number of observations and number of variables in the data set
+# Bring in dataset
+North_Site <- read.csv("North Site.csv")
+
+# Check for the number of observations and variables in the dataset
 dim(North_Site)
-# Output
-# 264 rows   8columns
-```
 
-
-```{r}
-# names of all variables in the data set
+# Names of all the variables in the dataset
 names(North_Site)
-```
-
-```{r}
 
 # Values of the variables in string format 
 str(North_Site)
 
-```
-
-```{r}
-#Summary of the data set
+# Summary of the dataset
 summary(North_Site)
-```
 
-```{r}
-
-#Drop Site Inorder to Calculate Covariance
+# Drop site  to calculate covariance
 North_Site1 <- North_Site[-2]
-View(North_Site1)
-```
 
-```{r}
-#calculating covariance
+# Calculate covariance
 cor(North_Site1)
+
 # pH has negative correlation of -0.04136372 with Total Phosphate for North Site
 # pH has negative correlation of -0.21096814 with Nitrates for North Site
 
-```
-
-```{r}
-#Building Model
-lm1=lm(formula = North_Site$pH~North_Site$`Dissolved Oxygen`)
+# Identify the relationship between pH and dissolved oxygen on the North site
+attach(North_Site)
+lm1=lm(formula = pH ~ Dissolved.Oxygen)
 summary(lm1)
-# Output
-Call:
-  lm(formula = North_Site$pH ~ North_Site$`Dissolved Oxygen`)
 
-Residuals:
-  Min       1Q   Median       3Q      Max 
--2.53281 -0.16753  0.03272  0.25608  1.34558 
-
-Coefficients:
-  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                   8.010588   0.042980 186.378   <2e-16 ***
-  North_Site$`Dissolved Oxygen` 0.005555   0.002968   1.872   0.0624 .  
----
-  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.4781 on 262 degrees of freedom
-Multiple R-squared:  0.0132,	Adjusted R-squared:  0.009429 
-F-statistic: 3.503 on 1 and 262 DF,  p-value: 0.06236
-```
-
-```{r}
-# calculate the regression ANOVA 
+# Calculate the regression ANOVA
 SSTotal <- var( North_Site$pH ) * (nrow(North_Site)-1)
 SSE     <- sum( lm1$resid^2 )
 SSreg   <- SSTotal - SSE
@@ -81,42 +51,18 @@ dfE   <- lm1$df.residual
 dfReg <- nrow(North_Site) - 1 - dfE
 MSreg <- SSreg / dfReg
 MSE   <- SSE / dfE
-(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
-# 3.503382
-(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
-# 0.06235779
+(Fstat <- MSreg / MSE) # Compare this with the summary(lm1) result earlier, they both equal 3.502 when rounding up.
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # Compare this with the summary(lm1) result earlier, they both equal 0.06241 when rounding up.
+
 # Since P-value is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
-# Also,The R-squared is 0.009429, so the model can explain 0.9% % of the variability of the response variable which is very low.
-```
+# Also,The R-squared is 0.009429, so the model can explain 0.9% of the variability of the response variable which is very low.
 
-```{r}
-#Building Model
+# Identify the relationship between pH and Alkalinity on the North site
 lm2=lm(formula = North_Site$pH~North_Site$Alkalinity)
 summary(lm2)
-# Output
-Call:
-  lm(formula = North_Site$pH ~ North_Site$Alkalinity)
 
-Residuals:
-  Min       1Q   Median       3Q      Max 
--2.57322 -0.17261  0.03007  0.26955  1.33701 
-
-Coefficients:
-  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)            8.1033583  0.1474554  54.955   <2e-16 ***
-  North_Site$Alkalinity -0.0001238  0.0005240  -0.236    0.813    
----
-  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.4813 on 262 degrees of freedom
-Multiple R-squared:  0.0002131,	Adjusted R-squared:  -0.003603 
-F-statistic: 0.05584 on 1 and 262 DF,  p-value: 0.8134
-```
-
-```{r}
-
-# calculate the regression ANOVA 
+# Calculate the regression ANOVA 
 SSTotal <- var( North_Site$pH ) * (nrow(North_Site)-1)
 SSE     <- sum( lm2$resid^2 )
 SSreg   <- SSTotal - SSE
@@ -124,83 +70,54 @@ dfE   <- lm2$df.residual
 dfReg <- nrow(North_Site) - 1 - dfE
 MSreg <- SSreg / dfReg
 MSE   <- SSE / dfE
-(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
-# 0.05584194
-(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
-# 0.8133776
+(Fstat <- MSreg / MSE) # Compare this with the summary(lm2) result earlier, they both equal 0.05614 when rounding up.
+
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # Compare this with the summary(lm2) result earlier, they both equal 0.8129 when rounding up.
+
 # Since P-value  is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
-# Also,The R-squared is -0.003603, so the model can explain -0.3% % of the variability of the response variable which is very low and negative.
+# Also,The R-squared is -0.003603, so the model can explain -0.3% of the variability of the response variable which is very low and negative.
 ```
 
 
--------------------------------------------#Analysis of pH value of Water for West site#--------------------------------------
+## Analysis of pH level on the West site
+
+For this section, we are looking at the correlation between pH level and nutrients in the West site.
 
 ```{r}
+setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
+library(readxl)
+library(dplyr)
 
-# Number of observations and number of variables in the data set
+# Bring in dataset
+West_Site <- read.csv("West Site.csv")
+
+# Check for the number of observations and variables in the dataset
 dim(West_Site)
-# Output
-# 122 rows   8columns
-```
 
-```{r}
-# names of all variables in the data set
+# Names of all the variables in the dataset
 names(West_Site) 
-```
 
-```{r}
 # Values of the variables in string format 
 str(West_Site)
-```
 
-```{r}
-#Summary of the data set
+# Summary of the dataset
 summary(West_Site)
-```
 
-```{r}
-#Drop Site Inorder to Calculate Covariance
+
+# Drop site to calculate covariance
 West_Site1 <- West_Site[-2]
-View(West_Site1)
-```
 
-```{r}
-
-#calculating covariance
+# Calculate covariance
 cor(West_Site1)
 
 # pH has negative correlation of -0.20965277 with Total phosphate for West Site
-```
 
-```{r}
-#Building Model
-lm3=lm(formula = West_Site$pH~West_Site$`Dissolved Oxygen`)
+# Identify the relationship between pH and dissolved oxygen on the West site
+lm3=lm(formula = West_Site$pH~West_Site$Dissolved.Oxygen)
 summary(lm3)
-# Output
 
-Call:
-  lm(formula = West_Site$pH ~ West_Site$`Dissolved Oxygen`)
-
-Residuals:
-  Min       1Q   Median       3Q      Max 
--2.58104 -0.15099  0.01487  0.30441  1.18132 
-
-Coefficients:
-  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                  8.067357   0.066166 121.927   <2e-16 ***
-  West_Site$`Dissolved Oxygen` 0.003422   0.003590   0.953    0.342    
----
-  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.5581 on 120 degrees of freedom
-Multiple R-squared:  0.007516,	Adjusted R-squared:  -0.0007552 
-F-statistic: 0.9087 on 1 and 120 DF,  p-value: 0.3424
-```
-
-
-```{r}
-# calculate the regression ANOVA 
+# Calculate the regression ANOVA 
 SSTotal <- var( West_Site$pH ) * (nrow(West_Site)-1)
 SSE     <- sum( lm3$resid^2 )
 SSreg   <- SSTotal - SSE
@@ -208,42 +125,17 @@ dfE   <- lm3$df.residual
 dfReg <- nrow(West_Site) - 1 - dfE
 MSreg <- SSreg / dfReg
 MSE   <- SSE / dfE
-(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
-# 0.9086939
-(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
-# 0.3423774
+(Fstat <- MSreg / MSE) # Compare this with the summary(lm3) result earlier, they both equal 0.908 when rounding up.
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # Compare this with the summary(lm3) result earlier, they both equal 0.3426 when rounding up.
+
 # Since P-value  is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
-```
 
-
-```{r}
-#Building Model
+# Identify the relationship between pH and Alkalinity on the West site
 lm4=lm(formula = West_Site$pH~West_Site$Alkalinity)
 summary(lm4)
-# Output
-Call:
-  lm(formula = West_Site$pH ~ West_Site$Alkalinity)
 
-Residuals:
-  Min       1Q   Median       3Q      Max 
--2.57613 -0.16532  0.02387  0.31488  1.22387 
-
-Coefficients:
-  Estimate Std. Error t value Pr(>|t|)    
-(Intercept)          7.7244730  0.2496396  30.943   <2e-16 ***
-  West_Site$Alkalinity 0.0014449  0.0009211   1.569    0.119    
----
-  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.5546 on 120 degrees of freedom
-Multiple R-squared:  0.02009,	Adjusted R-squared:  0.01193 
-F-statistic: 2.461 on 1 and 120 DF,  p-value: 0.1194
-
-```
-
-```{r}
-# calculate the regression ANOVA 
+# Calculate the regression ANOVA 
 SSTotal <- var( West_Site$pH ) * (nrow(West_Site)-1)
 SSE     <- sum( lm4$resid^2 )
 SSreg   <- SSTotal - SSE
@@ -251,127 +143,88 @@ dfE   <- lm4$df.residual
 dfReg <- nrow(West_Site) - 1 - dfE
 MSreg <- SSreg / dfReg
 MSE   <- SSE / dfE
-(Fstat <- MSreg / MSE) # compare this with the summary() result earlier
-# 2.460743
-(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # compare this with the summary() result earlier
-# 0.1193568
+(Fstat <- MSreg / MSE) # Compare this with the summary(lm4) result earlier, they both equal 2.458 when rounding up.
+(pval  <- pf( Fstat , dfReg, dfE , lower.tail=FALSE )) # Compare this with the summary(lm4) result earlier, they both equal 0.1195 when rounding up.
+
 # Since P-value is greater than the significance level(0.05) indicating that there is insufficient evidence in our sample to conclude that a non-zero correlation exists.
 # Therefore we conclude that changes in the predictor are not associated with changes in the response.
-# Also,The R-squared is 0.01193, so the model can explain 1.1% of the variability of the response variable which is very low.
+# Also,The R-squared is 0.01191, so the model can explain 1.1% of the variability of the response variable which is very low.
 ```
 
 
-______________________________________________________________________________________________________________________________
+# Analysis of correlation between Turbidity and Conductivity
 
+For this section, we are looking at the correlation between Turbidity and  Conductivity in the North and West sites.
 ```{r}
 
 setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
 library(readxl)
 library(dplyr)
-```
 
-```{r}
-##Bring in dataset
+# Bring in dataset
 dataset <- read.csv("VH-Dataset.csv")
-```
-
-
-```{r}
 
 str(dataset)
-```
 
-```{r}
-##Checking for suspicious data
+# Checking for suspicious data
 range(dataset$TempF)
 range(dataset$Precipitation)
 range(dataset$WaterTemp)
 range(dataset$pH, na.rm = TRUE)
 range(dataset$Conductivity)
 range(dataset$Turbidity, na.rm = TRUE)
-```
 
-```{r}
-##Remove unnecessary columns
+# Remove unnecessary column
 beforesplit <-dataset[,-c(1)]
-```
 
-```{r}
-##Create subset for data from West site
+# Create subset for data from West site
 west <- subset(beforesplit,beforesplit$ObservationSite == "West")
-```
 
-```{r}
-##Create subset for data from North site
+# Create subset for data from North site
 north <-subset(beforesplit,beforesplit$ObservationSite == "North")
 
-```
-
-```{r}
-
-##Quick summary
+# Quick summary
 summary(beforesplit)
 summary(west)
 summary(north)
-```
 
-
-```{r}
-##Linear regression to find out the connection between Turbidity and Conductivity
 attach(dataset)
-plot(Turbidity ~ Conductivity)
+
+# Linear regression to find out the connection between Turbidity and Conductivity
 reg <- lm(Turbidity ~ Conductivity)
-abline(reg)
 summary(reg)
-##Results show that there is no linear relationship
-```
+# Results show that there is no linear relationship with the R-squared value of 0.2915
 
-
-```{r}
-##Linear regression to find out the connection between Turbidity and Conductivity (for west site)
 attach(west)
-plot(Turbidity ~ Conductivity)
+# Linear regression to find out the connection between Turbidity and Conductivity (for west site)
 regwest <- lm(Turbidity ~ Conductivity)
-abline(regwest)
 summary(regwest)
-##Results show that there is no linear relationship
-```
+# Results show that there is no linear relationship with the R-squared value of 0.08438
 
+attach(north)
+# Linear regression to find out the connection between Turbidity and Conductivity (for north site)
+regnorth <- lm(Turbidity ~ Conductivity)
+summary(regnorth)
+# Results show that there is no linear relationship with the R-squared value of 0.3149
 
-```{r}
-##Linear regression to find out the connection between Turbidity and Conductivity (for north site)
-attach(east)
-plot(Turbidity ~ Conductivity)
-regeast <- lm(Turbidity ~ Conductivity)
-abline(regeast)
-summary(regeast)
-##Results show that there is no linear relationship
-```
-
-```{r}
-
-##Linear regression to find out the connection between TempF and pH
 attach(dataset)
-plot(TempF ~ pH)
+# Linear regression to find out the connection between TempF and pH
 tempph <- lm(TempF ~ pH)
-abline(tempph)
 summary(tempph)
-##Results show that there is no linear relationship
-
+# Results show that there is no linear relationship with the R-squared value of 0.02729
 ```
 
-___________________________________________________________________________________________________________________________________________
+# Analysis of correlation between pH and E.Coli
 
+For this section, we are looking at the correlation between pH and E.Coli in the North and West sites.
 
 ```{r}
 # Installing the library packages
-install.packages("readxl")
+# Need to install.packages("readxl")
 library("readxl")
-```
 
-```{r}
 # Import the excel file in R
-dataset <- read_excel("/users/rajeshkumarpanigrahi/Downloads/Master Water Quality Entry.xlsx", sheet="Sheet1", skip = 2,col_types =NULL ,col_names = TRUE)
+dataset <- read_excel("C:/Users/hatha/Desktop/ISQA8086/RScripts/Master Water Quality Entry.xlsx", sheet="Sheet1", skip = 2,col_types =NULL ,col_names = TRUE)
 
 # Removing the first column as it contains only units
 dataset1<- dataset [-c (1),]
@@ -382,199 +235,131 @@ dataset_yr <- subset(dataset1, dataset1$Year>2012 & dataset1$Year<2018)
 # Combining Day, Month, & Year columns into a single Date column
 dataset_yr$Date <- as.Date(with(dataset_yr, paste(Year, Month, Day,sep="-")), "%Y-%m-%d")
 
-# keeping the obsrvation site, pH and Ecoli in my dataset
+# Keeping the obsrvation site, pH and Ecoli in my dataset
 data <- dataset_yr [,c(5,11,18)]
 
 # Renaming the column name
 names (data)[1]<- "ObservationSite"
 
-```
-
-```{r}
 # Capitalized first letter in observation site
 capFirst<- function(s){
 paste(toupper(substring(s, 1, 1)), substring(s, 2), sep = "")
 }
 data$ObservationSite<-capFirst(data$ObservationSite)
 
-# convert the data in numeric form and upto 2 decimal points
+# Convert the data in numeric form and upto 2 decimal points
 data1<- data
 data1$pH=as.numeric(as.character(data1$pH))
 data1$pH<-round(data1$pH,2)
 data1$`E. coli`=as.numeric(as.character(data1$`E. coli`))
-```
 
-```{r}
 # Display the structure of dataset
 str(data1)
-```
 
 
-```{r}
-# summary of the dataset
+# Summary of the dataset
 summary(data1)
-```
 
-```{r}
-# summary of pH value
+
+# Summary of pH value
 summary(data1$pH)
-```
 
-```{r}
-# summary of E.coli value
+
+# Summary of E.coli value
 summary(data1$`E. coli`)
-```
 
-```{r}
-# remove the data for NEGP and WGP site and split the dataset into 2 by north and west site
+
+# Remove the data from NEGP & WGP sites and split the dataset into north site and west site
 data2 <- subset(data1, data1$ObservationSite!="NEGP" & data1$ObservationSite!="WGP")
 siteData <- split(data2,data2$ObservationSite)
 siteData
-```
 
-```{r}
-# display the structure of north site dataset
+# Display the structure of north site dataset
 str(siteData$North)
-```
 
-```{r}
-# display the structure of west site dataset
+# Display the structure of west site dataset
 str(siteData$West)
-```
 
-```{r}
-
+# Summary of varibles from North site and West site
 summary(siteData$North$pH)
-```
-
-```{r}
 summary(siteData$North$`E. coli`)
 summary(siteData$West$pH)
 summary(siteData$West$`E. coli`)
 summary(siteData$North)
 summary(siteData$West)
-```
 
-```{r}
+# Mean of varibles from North site and West site
 mean(siteData$North$pH, na.rm = TRUE)
 mean(siteData$North$`E. coli`, na.rm = TRUE)
 mean(siteData$West$pH,na.rm = TRUE)
 mean(siteData$West$`E. coli`,na.rm = TRUE)
 
-```
-
-```{r}
+# Standard deviation of varibles from North site and West site
 sd(siteData$North$pH, na.rm = TRUE)
 sd(siteData$North$`E. coli`, na.rm = TRUE)
 sd(siteData$West$pH,na.rm = TRUE)
 sd(siteData$West$`E. coli`,na.rm = TRUE)
 
-```
-
-```{r}
+# Min values of varibles from North site and West site
 min(siteData$North$pH, na.rm = TRUE)
 min(siteData$North$`E. coli`, na.rm = TRUE)
 min(siteData$West$pH,na.rm = TRUE)
 min(siteData$West$`E. coli`,na.rm = TRUE)
 
-```
-
-```{r}
+# Max values of varibles from North site and West site
 max(siteData$North$pH, na.rm = TRUE)
 max(siteData$North$`E. coli`, na.rm = TRUE)
 max(siteData$West$`E. coli`,na.rm = TRUE)
 max(siteData$West$pH,na.rm = TRUE)
 
-```
-
-```{r}
+# Range values of varibles from North site and West site
 range(siteData$North$pH, na.rm = TRUE)
 range(siteData$North$`E. coli`, na.rm = TRUE)
 range(siteData$West$pH,na.rm = TRUE)
 range(siteData$West$`E. coli`,na.rm = TRUE)
 
-```
-
-```{r}
+# Quantile of varibles from North site and West site
 quantile(siteData$North$pH, na.rm = TRUE)
 quantile(siteData$North$`E. coli`, na.rm = TRUE)
 quantile(siteData$West$pH,na.rm = TRUE)
 quantile(siteData$West$`E. coli`,na.rm = TRUE)
 
-```
 
-```{r}
 cor(siteData$North$pH, siteData$North$`E. coli`, use = "complete.obs")
 cor(siteData$West$pH, siteData$West$`E. coli`, use = "complete.obs")
 
-```
+# Identify the relationship between pH and E.Coli on the North site
+lr <- lm(siteData$North$pH ~ siteData$North$`E. coli`)
+summary(lr)
+# Results show that there is no linear relationship with the R-squared value of -0.02627
 
-```{r}
-lm(siteData$North$pH ~ siteData$North$`E. coli`)
-# output
-Call:
-  lm(formula = siteData$North$pH ~ siteData$North$`E. coli`)
+# Identify the relationship between pH and E.Coli on the West site
+lr1 <- lm(siteData$West$pH ~ siteData$West$`E. coli`)
+summary(lr1)
+# Results show that there is no linear relationship with the R-squared value of 0.08571
 
-Coefficients:
-  (Intercept)  siteData$North$`E. coli`  
-7.987e+00                -1.342e-06  
-
-# input
-lm(siteData$West$pH ~ siteData$West$`E. coli`)
-
-# outpt
-Call:
-  lm(formula = siteData$West$pH ~ siteData$West$`E. coli`)
-
-Coefficients:
-  (Intercept)  siteData$West$`E. coli`  
-8.1624245               -0.0000456  
-```
-
-```{r}
-# input
+# Identify the relationship between pH and E.Coli on the North site using ANOVA
 anova(lm(siteData$North$pH ~ siteData$North$`E. coli`, data =siteData$North))
 
-# output 
-Analysis of Variance Table
-
-Response: siteData$North$pH
-Df Sum Sq  Mean Sq F value Pr(>F)
-siteData$North$`E. coli`  1 0.0002 0.000162  0.0017 0.9672
-Residuals                38 3.5908 0.094496  
-```
-
-```{r}
-# input
+# Identify the relationship between pH and E.Coli on the West site using ANOVA
 anova(lm(siteData$West$pH ~ siteData$West$`E. coli`, data =siteData$West))
 
-# output
-Analysis of Variance Table
-
-Response: siteData$West$pH
-Df Sum Sq Mean Sq F value  Pr(>F)  
-siteData$West$`E. coli`  1 0.5602 0.56023  4.5624 0.03936 *
-  Residuals               37 4.5434 0.12279                  
----
-  Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-```
-
-```{r}
-# input
+# Identify the relationship between pH and E.Coli on the North site using aov
 aov(siteData$North$pH ~ siteData$North$`E. coli`, data =siteData$North )
 
-# output
-Call:
-  aov(formula = siteData$North$pH ~ siteData$North$`E. coli`, data = siteData$North)
-
-Terms:
-  siteData$North$`E. coli` Residuals
-Sum of Squares                  0.000162  3.590838
-Deg. of Freedom                        1        38
-
-Residual standard error: 0.3074016
-Estimated effects may be unbalanced
-101 observations deleted due to missingness
 ```
+## Contributorship statement
+Malik, Nishi, Vincent and Vishekha have contributed to the R scripts  
+* **Malik**    - Proofreading  
+* **Nishi**    - R scripts for the analysis of correlation between pH and E.Coli  
+* **Vincent**  - R scripts for the analysis of correlation between Turbidity and Conductivity  
+           - Create Knitted HTML  
+* **Vishekha** - R scripts for the analysis of pH level on the North site and West site  
+           - Create R markdown  
+
+### ProofReader statement
+Malik Malzarah is the proofreader of this document.  
+
+
 
 
