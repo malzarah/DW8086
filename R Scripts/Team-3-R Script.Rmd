@@ -5,11 +5,12 @@ date: "11/5/2019"
 output: html_document
 ---
 
-## Analysis of pH level on the North site
+## Analysis of pH level of water with respect to dissolved oxygen and alkalinity on the North site
 
 For this section, we are looking at the correlation between pH level and nutrients in the North site.
 
 ```{r}
+# Use "North Site.csv" to run this script
 setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
 library(readxl)
 library(dplyr)
@@ -80,11 +81,12 @@ MSE   <- SSE / dfE
 ```
 
 
-## Analysis of pH level on the West site
+## Analysis of pH level of water with respect to dissolved oxygen and alkalinity on the West site
 
 For this section, we are looking at the correlation between pH level and nutrients in the West site.
 
 ```{r}
+# Use "West Site.csv" to run this script
 setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
 library(readxl)
 library(dplyr)
@@ -156,7 +158,7 @@ MSE   <- SSE / dfE
 
 For this section, we are looking at the correlation between Turbidity and  Conductivity in the North and West sites.
 ```{r}
-
+# Use "VH-Dataset.csv" to run this script
 setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
 library(readxl)
 library(dplyr)
@@ -219,6 +221,7 @@ summary(tempph)
 For this section, we are looking at the correlation between pH and E.Coli in the North and West sites.
 
 ```{r}
+# Use "Master Water Quality Entry.xlsx" to run this script
 # Installing the library packages
 # Need to install.packages("readxl")
 library("readxl")
@@ -354,7 +357,7 @@ Malik, Nishi, Vincent and Vishekha have contributed to the R scripts
 * **Nishi**    - R scripts for the analysis of correlation between pH and E.Coli  
 * **Vincent**  - R scripts for the analysis of correlation between Turbidity and Conductivity  
            - Create Knitted HTML  
-* **Vishekha** - R scripts for the analysis of pH level on the North site and West site  
+* **Vishekha** - R scripts for the analysis of pH level of water with respect to dissolved oxygen and alkalinity on the North and West sites
            - Create R markdown  
 
 ### ProofReader statement
