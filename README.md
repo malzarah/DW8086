@@ -11,7 +11,7 @@
 * [Audience Profile](https://github.com/datawizard8086/DW8086/blob/master/Audience%20Profile/AudienceProfile.md)
 * [Data Cleaning Documentation](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.Rmd)
 * [R Scripts](https://github.com/datawizard8086/DW8086/tree/master/R%20Scripts)
-* [R Plots](https://github.com/datawizard8086/DW8086/tree/master/R%20Plots)
+* [R Plots](https://github.com/datawizard8086/DW8086/tree/master/R%20plots)
 * Project Summary
 * Project Presentation
 * Summary of Contributorship
