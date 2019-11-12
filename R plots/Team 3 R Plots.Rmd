@@ -9,6 +9,13 @@ output: html_document
 ## We would look at distribution for the variables Dissolved Oxygen and Alkanility and pH level of water for North site.
 
 ```{r}
+# Use "North Site.csv" to run this script
+setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
+library(readxl)
+library(dplyr)
+```
+
+```{r}
 # pH level's Distribution For North Site
 hist(North_Site$pH,xlab=" pH level",ylab="Count", col="blue", main="pH level's Distribution For North Site", breaks=20)
 
@@ -50,7 +57,12 @@ boxplot(North_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Witho
 ```
 ### From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
 
-
+```{r}
+# Use "West Site.csv" to run this script
+setwd("C:/Users/hatha/Desktop/ISQA8086/RScripts")
+library(readxl)
+library(dplyr)
+```
 
 ## We would look at distribution for the variables Dissolved Oxygen and Alkanility and pH level of water for West site.
 
