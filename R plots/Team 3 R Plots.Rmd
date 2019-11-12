@@ -1,0 +1,102 @@
+---
+title: "Team 3 R Plots"
+author: "Vishekha, Vincent, Nishi and Malik"
+date: "11/12/2019"
+output: html_document
+---
+# Analysis By Creating R Plots for pH level of water with respect to Dissolved Oxygen and Alkalinity For North Site ---------------
+
+## We would look at distribution for each of the variables
+
+```{r}
+# pH level's Distribution For North Site
+hist(North_Site$pH,xlab=" pH leve",ylab="Count", col="blue", main="pH level's Distribution For North Site", breaks=20)
+
+```
+
+```{r}
+#Dissolved Oxygen's Distribution For North Site
+hist(North_Site$`Dissolved Oxygen`,xlab="Dissolved Oxygen",ylab="Count", col="blue", main="Dissolved Oxygen's Distribution For North Site", breaks=20)
+
+```
+
+```{r}
+#Alkalinity's Distribution For North Site
+hist(North_Site$Alkalinity,xlab="Alkalinity",ylab="Count", col="blue", main="Alkalinity's Distribution For North Site", breaks=20)
+
+```
+
+## Box Plot for varibales Dissolved Oxygen and Alkalinity with and without outliers for North Site
+
+```{r}
+#boxplot for Dissolved Oxygen with outlier for North Site
+boxplot(North_Site$`Dissolved Oxygen`,main = "Boxplot for Dissolved Oxygen With Outlier")
+#boxplot for Dissolved Oxygen without outlier
+boxplot(North_Site$`Dissolved Oxygen`,outline=FALSE, main ="Boxplot for Dissolved Oxygen Without Outlier")
+```
+
+```{r}
+#boxplot for Alkalinity with outlier for West Site
+boxplot(North_Site$Alkalinity,main = "Boxplot for Alkalinity with outlier")
+#boxplot for Alkalinity without outlier
+boxplot(North_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Without Outlier")
+```
+
+# We would look at distribution for each of the variables
+
+```{r}
+# pH level's Distribution For North Site
+hist(West_Site$pH,xlab=" pH leve",ylab="Count", col="blue", main="pH level's Distribution For West Site", breaks=20)
+
+```
+
+```{r}
+#Dissolved Oxygen's Distribution For North Site
+hist(West_Site$`Dissolved Oxygen`,xlab="Dissolved Oxygen",ylab="Count", col="blue", main="Dissolved Oxygen's Distribution For West Site", breaks=20)
+
+```
+
+```{r}
+#Alkalinity's Distribution For North Site
+hist(West_Site$Alkalinity,xlab="Alkalinity",ylab="Count", col="blue", main="Alkalinity's Distribution For West Site", breaks=20)
+
+```
+
+## Box Plot for varibales Dissolved Oxygen and Alkalinity with and without outliers for West Site
+
+```{r}
+#boxplot for Dissolved Oxygen with outlier
+boxplot(West_Site$`Dissolved Oxygen`,main = "Boxplot for Dissolved Oxygen With Outlier")
+#boxplot for Dissolved Oxygen without outlier
+boxplot(West_Site$`Dissolved Oxygen`,outline=FALSE, main ="Boxplot for Dissolved Oxygen Without Outlier")
+```
+
+```{r}
+#boxplot for Alkalinity with outlier
+boxplot(West_Site$Alkalinity,main = "Boxplot for Alkalinity with outlier")
+#boxplot for Alkalinity without outlier
+boxplot(West_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Without Outlier")
+```
+
+## Histogram of variables pH, and Ecoli for North and West site
+```{r}
+hist(siteData$North$pH)
+hist(siteData$North$`E. coli`)
+hist(siteData$West$pH)
+hist(siteData$West$`E. coli`)
+```
+
+## Boxplot of variables pH, and Ecoli for North and West site
+```{r}
+boxplot(siteData$North$pH)
+boxplot(siteData$North$`E. coli`)
+boxplot(siteData$West$pH)
+boxplot(siteData$West$`E. coli`)
+```
+
+## Plots for ph aganist E coli for North and West Site
+```{r}
+plot(siteData$North$pH ~ siteData$North$`E. coli`)
+plot(siteData$West$pH ~ siteData$West$`E. coli`)
+```
+
