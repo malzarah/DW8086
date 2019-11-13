@@ -10,6 +10,13 @@ output: html_document
 
 # For the below plots, a new cleaned dataset "North Site.csv" was created. The dataset consist of data from 2013-2017 and observations belonging only for North site. 
 
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = "/Users/vishhy/Desktop/Data to Decision/Data set R script/North site.csv", echo = TRUE)
+library("readxl")
+library("ggplot2")
+```
+
+
 # We would look at distribution for the variables Dissolved Oxygen, Alkanility and pH level of water for North site.
 
 ```{r}
@@ -60,6 +67,12 @@ boxplot(North_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Witho
 
 # For For the below plots, a new cleaned dataset "West Site.csv" was created. The dataset consist of data from 2013-2017 and observations belonging only for West site. 
 
+```{r setup, include=FALSE}
+knitr::opts_knit$set(root.dir = "/Users/vishhy/Desktop/Data to Decision/Data set R script/North Site.csv", echo = TRUE)
+library("readxl")
+library("ggplot2")
+```
+
 # We would look at distribution for the variables Dissolved Oxygen, Alkanility and pH level of water for West site.
 
 ```{r}
@@ -107,6 +120,7 @@ boxplot(West_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Withou
 
 
 # ggplot of variable pH for North and West site. 
+
 # We are trying to see the differences in pH value on the north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the years 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
 
 ```{r}
