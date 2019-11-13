@@ -98,7 +98,7 @@ boxplot(West_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Withou
 
 
 ## ggplot of variable pH for North and West site. 
-We are trying to see the differences in pH value on the north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the years 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
+### We are trying to see the differences in pH value on the north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the years 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
 
 ```{r}
 
@@ -107,7 +107,7 @@ ggplot (Nishi_dataset, mapping = aes(x = Year, y = pH, color = ObservationSite))
 ```
 
 ## ggplot of variable E coli for North and West Site
-We are trying to see the differences in Ecoli value on the north and west site. As we know that Ecoli value in water should not be exceeded 575 colonies per 100 ml of water. We can see from our graph that the bacteria E-coli was more than the standrad value in the west site compare to the north site.
+### We are trying to see the differences in Ecoli value on the north and west site. As we know that Ecoli value in water should not be exceeded 575 colonies per 100 ml of water. We can see from our graph that the bacteria E-coli was more than the standrad value in the west site compare to the north site.
 ```{r}
 
 ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSite)) +geom_jitter()+ ggtitle ("Ecoli value in north and west site")
@@ -124,14 +124,14 @@ library("ggplot2")
 
 ## Overview
 
-For this chunk of plots, a new cleaned dataset "VH-Dataset-NWplot.csv" had been created. This dataset contained data from 2013-2017 and only for North and West sites. The four plots below show the monthly differences in Turbudidy and Conductivity between North and West sites.
+### For this chunk of plots, a new cleaned dataset "VH-Dataset-NWplot.csv" had been created. This dataset contained data from 2013-2017 and only for North and West sites. The four plots below show the monthly differences in Turbudidy and Conductivity between North and West sites.
 
 
-### Plot 1 and 2- Differences of Turbidity/Conductivity between the North and West sites (using geom line)
+## Plot 1 and 2- Differences of Turbidity/Conductivity between the North and West sites (using geom line)
 
-For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom line, we can see the changes when the lines go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
+### For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom line, we can see the changes when the lines go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
 
-To interpret these plots, we need to look at the specific month and see if the two lines are close to each other which means there is not much of a difference between the two sites. In a perfect world, we expect the two lines to lay over each other which means there are no differences. For instance, by looking at May 2013 of the first plot, we can tell that there is a big difference in measurements between the two sites.
+### To interpret these plots, we need to look at the specific month and see if the two lines are close to each other which means there is not much of a difference between the two sites. In a perfect world, we expect the two lines to lay over each other which means there are no differences. For instance, by looking at May 2013 of the first plot, we can tell that there is a big difference in measurements between the two sites.
 
 ```{r geomline, echo=FALSE, warning=FALSE}
 dataset <- read.csv("VH-Dataset-NWplot.csv")
@@ -143,9 +143,9 @@ ggplot(dataset, mapping = aes(x = Month, y = Turbidity, color = ObservationSite)
 
 ```
 
-### Plot 3 and 4- Differences of Turbidity/Conductivity between the North and West sites (using geom point)
+## Plot 3 and 4- Differences of Turbidity/Conductivity between the North and West sites (using geom point)
 
-For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom point, we can see the changes when the points go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
+### For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom point, we can see the changes when the points go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
 
 To interpret these plots, we need to look at the specific month and see if the clusters of points are close to each other which means there is not much of a difference between the two sites. In a perfect world, we expect the cluster of points to lay over each other which means there are no differences. For instance, by looking at September 2015 of the first plot, we can tell that there is a big difference in measurements between the two sites.
 
