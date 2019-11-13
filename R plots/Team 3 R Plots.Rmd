@@ -8,14 +8,16 @@ output: html_document
 
 # Analysis By Creating R Plots for pH level of water with respect to Dissolved Oxygen and Alkalinity For North Site.
 
-## We would look at distribution for the variables Dissolved Oxygen, Alkanility and pH level of water for North site.
+# For the below plots, a new cleaned dataset "North Site.csv" was created. The dataset consist of data from 2013-2017 and observations belonging only for North site. 
+
+# We would look at distribution for the variables Dissolved Oxygen, Alkanility and pH level of water for North site.
 
 ```{r}
 # pH level's Distribution For North Site
 hist(North_Site$pH,xlab=" pH level",ylab="Count", col="blue", main="pH level's Distribution For North Site", breaks=20)
 
 ```
-### pH level shows normal distrubution with maximum number of samples lying between 7.5 to 8.5.
+# pH level shows normal distrubution with maximum number of samples lying between 7.5 to 8.5.
 
 
 ```{r}
@@ -23,7 +25,7 @@ hist(North_Site$pH,xlab=" pH level",ylab="Count", col="blue", main="pH level's D
 hist(North_Site$`Dissolved Oxygen`,xlab="Dissolved Oxygen",ylab="Count", col="blue", main="Dissolved Oxygen's Distribution For North Site", breaks=20)
 
 ```
-### Dissolved Oxygen shows normal distribution with maximum number of samples lying between 0 to 18.
+# Dissolved Oxygen shows normal distribution with maximum number of samples lying between 0 to 18.
 
 
 ```{r}
@@ -31,10 +33,10 @@ hist(North_Site$`Dissolved Oxygen`,xlab="Dissolved Oxygen",ylab="Count", col="bl
 hist(North_Site$Alkalinity,xlab="Alkalinity",ylab="Count", col="blue", main="Alkalinity's Distribution For North Site", breaks=20)
 
 ```
-### Alkanlinity shows normal distribution with maximum number of samples lying between 220 to 330.
+# Alkanlinity shows normal distribution with maximum number of samples lying between 220 to 330.
 
 
-## Box Plot for varibales Dissolved Oxygen and Alkalinity with and without outliers for North Site.
+# Box Plot for varibales Dissolved Oxygen and Alkalinity with and without outliers for North Site.
 
 ```{r}
 #boxplot for Dissolved Oxygen with outlier for North Site
@@ -42,7 +44,7 @@ boxplot(North_Site$`Dissolved Oxygen`,main = "Boxplot for Dissolved Oxygen With 
 #boxplot for Dissolved Oxygen without outlier
 boxplot(North_Site$`Dissolved Oxygen`,outline=FALSE, main ="Boxplot for Dissolved Oxygen Without Outlier")
 ```
-### From the above two graphs we conclude that the samples of Dissolved Oxygen contains Outliers.
+# From the above two graphs we conclude that the samples of Dissolved Oxygen contains Outliers.
 
 ```{r}
 #boxplot for Alkalinity with outlier for West Site
@@ -50,24 +52,29 @@ boxplot(North_Site$Alkalinity,main = "Boxplot for Alkalinity with outlier")
 #boxplot for Alkalinity without outlier
 boxplot(North_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Without Outlier")
 ```
-### From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
+# From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
 
 
-## We would look at distribution for the variables Dissolved Oxygen, Alkanility and pH level of water for West site.
+
+# Analysis By Creating R Plots for pH level of water with respect to Dissolved Oxygen and Alkalinity For West Site.
+
+# For For the below plots, a new cleaned dataset "West Site.csv" was created. The dataset consist of data from 2013-2017 and observations belonging only for West site. 
+
+# We would look at distribution for the variables Dissolved Oxygen, Alkanility and pH level of water for West site.
 
 ```{r}
 # pH level's Distribution For West Site
 hist(West_Site$pH,xlab=" pH leve",ylab="Count", col="blue", main="pH level's Distribution For West Site", breaks=20)
 
 ```
-### pH level shows normal distrubution with maximum number of samples lying between 7.5 to 9.
+# pH level shows normal distrubution with maximum number of samples lying between 7.5 to 9.
 
 ```{r}
 #Dissolved Oxygen's Distribution For North Site
 hist(West_Site$`Dissolved Oxygen`,xlab="Dissolved Oxygen",ylab="Count", col="blue", main="Dissolved Oxygen's Distribution For West Site", breaks=20)
 
 ```
-### Dissolved Oxygen shows normal distribution with maximum number of samples lying between 0 to 19.5.
+# Dissolved Oxygen shows normal distribution with maximum number of samples lying between 0 to 19.5.
 
 
 ```{r}
@@ -75,10 +82,10 @@ hist(West_Site$`Dissolved Oxygen`,xlab="Dissolved Oxygen",ylab="Count", col="blu
 hist(West_Site$Alkalinity,xlab="Alkalinity",ylab="Count", col="blue", main="Alkalinity's Distribution For West Site", breaks=20)
 
 ```
-### Alkanlinity shows normal distribution with maximum number of samples lying between 230 to 320.
+# Alkanlinity shows normal distribution with maximum number of samples lying between 230 to 320.
 
 
-## Box Plot for varibales Dissolved Oxygen and Alkalinity with and without outliers for West Site
+# Box Plot for varibales Dissolved Oxygen and Alkalinity with and without outliers for West Site
 
 ```{r}
 #boxplot for Dissolved Oxygen with outlier
@@ -86,7 +93,7 @@ boxplot(West_Site$`Dissolved Oxygen`,main = "Boxplot for Dissolved Oxygen With O
 #boxplot for Dissolved Oxygen without outlier
 boxplot(West_Site$`Dissolved Oxygen`,outline=FALSE, main ="Boxplot for Dissolved Oxygen Without Outlier")
 ```
-### From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
+# From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
 
 ```{r}
 #boxplot for Alkalinity with outlier
@@ -94,11 +101,13 @@ boxplot(West_Site$Alkalinity,main = "Boxplot for Alkalinity with outlier")
 #boxplot for Alkalinity without outlier
 boxplot(West_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Without Outlier")
 ```
-### From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
+# From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
 
 
-## ggplot of variable pH for North and West site. 
-### We are trying to see the differences in pH value on the north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the years 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
+
+
+# ggplot of variable pH for North and West site. 
+# We are trying to see the differences in pH value on the north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the years 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
 
 ```{r}
 
@@ -106,8 +115,9 @@ ggplot (Nishi_dataset, mapping = aes(x = Year, y = pH, color = ObservationSite))
 
 ```
 
-## ggplot of variable E coli for North and West Site
-### We are trying to see the differences in Ecoli value on the north and west site. As we know that Ecoli value in water should not be exceeded 575 colonies per 100 ml of water. We can see from our graph that the bacteria E-coli was more than the standrad value in the west site compare to the north site.
+# ggplot of variable E coli for North and West Site
+# We are trying to see the differences in Ecoli value on the north and west site. As we know that Ecoli value in water should not be exceeded 575 colonies per 100 ml of water. We can see from our graph that the bacteria E-coli was more than the standrad value in the west site compare to the north site.
+
 ```{r}
 
 ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSite)) +geom_jitter()+ ggtitle ("Ecoli value in north and west site")
@@ -116,22 +126,23 @@ ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSit
 
 
 
+
+
+# Overview
+
+# For this chunk of plots, a new cleaned dataset "VH-Dataset-NWplot.csv" had been created. This dataset contained data from 2013-2017 and only for North and West sites. The four plots below show the monthly differences in Turbudidy and Conductivity between North and West sites.
+
 ```{r setup, include=FALSE}
 knitr::opts_knit$set(root.dir = "C:/Users/hatha/Desktop/ISQA8086/RScripts", echo = TRUE)
 library("readxl")
 library("ggplot2")
 ```
 
-## Overview
+# Plot 1 and 2- Differences of Turbidity/Conductivity between the North and West sites (using geom line)
 
-### For this chunk of plots, a new cleaned dataset "VH-Dataset-NWplot.csv" had been created. This dataset contained data from 2013-2017 and only for North and West sites. The four plots below show the monthly differences in Turbudidy and Conductivity between North and West sites.
+# For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom line, we can see the changes when the lines go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
 
-
-## Plot 1 and 2- Differences of Turbidity/Conductivity between the North and West sites (using geom line)
-
-### For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom line, we can see the changes when the lines go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
-
-### To interpret these plots, we need to look at the specific month and see if the two lines are close to each other which means there is not much of a difference between the two sites. In a perfect world, we expect the two lines to lay over each other which means there are no differences. For instance, by looking at May 2013 of the first plot, we can tell that there is a big difference in measurements between the two sites.
+# To interpret these plots, we need to look at the specific month and see if the two lines are close to each other which means there is not much of a difference between the two sites. In a perfect world, we expect the two lines to lay over each other which means there are no differences. For instance, by looking at May 2013 of the first plot, we can tell that there is a big difference in measurements between the two sites.
 
 ```{r geomline, echo=FALSE, warning=FALSE}
 dataset <- read.csv("VH-Dataset-NWplot.csv")
@@ -143,9 +154,9 @@ ggplot(dataset, mapping = aes(x = Month, y = Turbidity, color = ObservationSite)
 
 ```
 
-## Plot 3 and 4- Differences of Turbidity/Conductivity between the North and West sites (using geom point)
+# Plot 3 and 4- Differences of Turbidity/Conductivity between the North and West sites (using geom point)
 
-### For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom point, we can see the changes when the points go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
+# For these two plots, we are trying to look at the changes in Turbidity/Conductivity between the North and West sites. By using geom point, we can see the changes when the points go up and down. We also faceted the plots based on the years to make sure that we are only comparing the monthly differences of a specific year. Finally, we distinguished the two sites with color.
 
 To interpret these plots, we need to look at the specific month and see if the clusters of points are close to each other which means there is not much of a difference between the two sites. In a perfect world, we expect the cluster of points to lay over each other which means there are no differences. For instance, by looking at September 2015 of the first plot, we can tell that there is a big difference in measurements between the two sites.
 
