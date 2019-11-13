@@ -97,7 +97,7 @@ boxplot(West_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Withou
 
 
 ## ggplot of variable pH for north and west site. 
-We are trying o see the differences of pH value in north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the year 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
+We are trying to see the differences in pH value on the north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the years 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
 
 ```{r}
 
@@ -106,7 +106,7 @@ ggplot (Nishi_dataset, mapping = aes(x = Year, y = pH, color = ObservationSite))
 ```
 
 ## ggplot of variable E coli for North and West Site
-
+We are trying to see the differences in Ecoli value on the north and west site. As we know that Ecoli value in water should not be exceeded 575 colonies per 100 ml of water. We can see from our graph that the bacteria E-coli was more than the standrad value in the west site compare to the north site.
 ```{r}
 
 ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSite)) +geom_jitter()+ ggtitle ("pH value in north and west site")
