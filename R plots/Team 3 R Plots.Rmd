@@ -109,7 +109,7 @@ ggplot (Nishi_dataset, mapping = aes(x = Year, y = pH, color = ObservationSite))
 We are trying to see the differences in Ecoli value on the north and west site. As we know that Ecoli value in water should not be exceeded 575 colonies per 100 ml of water. We can see from our graph that the bacteria E-coli was more than the standrad value in the west site compare to the north site.
 ```{r}
 
-ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSite)) +geom_jitter()+ ggtitle ("pH value in north and west site")
+ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSite)) +geom_jitter()+ ggtitle ("Ecoli value in north and west site")
 
 ```
 
