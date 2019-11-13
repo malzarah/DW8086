@@ -6,5 +6,5 @@
 * **Vishekha** - R plots for the analysis of variables Dissolved Oxygen and Alkalinity against pH level of water for both North and West site. Created R Markdown file.
 * **Nishi**    - R plots for the analysis of variable E coli against pH level of water for both North and West site.
 * **Vincent**  - R plots for the differences in Turbidity/Conductivity measurements between the North and West sites 
-* **Malik**    _
+* **Malik**    -
   
