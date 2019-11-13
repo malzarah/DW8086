@@ -96,26 +96,20 @@ boxplot(West_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Withou
 ### From the above two graphs we conclude that the samples of Alkalinity contains Outliers.
 
 
+## ggplot of variable pH for north and west site. 
+We are trying o see the differences of pH value in north and west site. As we know that water pH value lower than 7 is considered to be acidic and greater than 7 is considered to be basic. We can see from our graph the north site water was acidic in the year 2013 and 2017. West site water was acidic in the year 2014, 2016, and 2017. We can see there is a significant difference between north and west site water for pH value.
 
-## Histogram of variables pH, and Ecoli for North and West site
 ```{r}
-hist(siteData$North$pH)
-hist(siteData$North$`E. coli`)
-hist(siteData$West$pH)
-hist(siteData$West$`E. coli`)
+
+ggplot (Nishi_dataset, mapping = aes(x = Year, y = pH, color = ObservationSite)) +geom_jitter()+ ggtitle ("pH value in north and west site")
+
 ```
 
-## Boxplot of variables pH, and Ecoli for North and West site
-```{r}
-boxplot(siteData$North$pH)
-boxplot(siteData$North$`E. coli`)
-boxplot(siteData$West$pH)
-boxplot(siteData$West$`E. coli`)
-```
+## ggplot of variable E coli for North and West Site
 
-## Plots for ph aganist E coli for North and West Site
 ```{r}
-plot(siteData$North$pH ~ siteData$North$`E. coli`)
-plot(siteData$West$pH ~ siteData$West$`E. coli`)
+
+ggplot (Nishi_dataset, mapping = aes(x = Year, y = Ecoli, color = ObservationSite)) +geom_jitter()+ ggtitle ("pH value in north and west site")
+
 ```
 
