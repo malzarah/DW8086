@@ -7,5 +7,5 @@
 * **Nishi**    - R plots for the analysis of variable E coli against pH level of water for both North and West site.
 * **Vincent**  - R plots for the differences in Turbidity/Conductivity measurements between the North and West sites
 * **Vincent**  - Created and published html page
-* **Malik**    -
+
   
