@@ -92,7 +92,7 @@ boxplot(North_Site$Dissolved.Oxygen,main = "Boxplot for Dissolved Oxygen With Ou
 boxplot(North_Site$Dissolved.Oxygen,outline=FALSE, main ="Boxplot for Dissolved Oxygen Without Outlier")
 ```
 
-From the above two graphs, we conclude that the samples of Dissolved Oxygen contain Outliers.
+From the above two graphs, we conclude that the samples of Dissolved Oxygen contain outliers.
 
 ```{r box1, echo=FALSE, warning=FALSE}
 #boxplot for Alkalinity with outlier for North Site
@@ -101,7 +101,7 @@ boxplot(North_Site$Alkalinity,main = "Boxplot for Alkalinity with outlier")
 boxplot(North_Site$Alkalinity,outline=FALSE, main ="Boxplot for Alkalinity Without Outlier")
 ```
 
-From the above two graphs, we conclude that the samples of Alkalinity contain Outliers.
+From the above two graphs, we conclude that the samples of Alkalinity contain outliers.
 
 ## Analysis By Creating R Plots for pH level of water with respect to Dissolved Oxygen and Alkalinity For West Site.
 
