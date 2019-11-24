@@ -13,4 +13,4 @@
 * [R Scripts](https://github.com/datawizard8086/DW8086/tree/master/R%20Scripts)
 * [R Plots](https://github.com/datawizard8086/DW8086/tree/master/R%20plots)
 * Project Presentation
-* Summary of Contributorship
+* [Summary of Contributorship](https://github.com/datawizard8086/DW8086/blob/master/Summary%20of%20Contributorship/Summary%20of%20Contributorship.md)
