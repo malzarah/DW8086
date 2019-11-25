@@ -1,5 +1,5 @@
 
-	## Background Research Report
+## Background Research Report
  The background research for the project is based on the following four sections:
  *  The client’s organization and its mission and goals.
  *  The research questions we are planning to focus.
