@@ -124,7 +124,7 @@ College of Agriculture and Life Sciences. Retrieved from https://extension.arizo
 ## Contributorship Statement
 * Vishekha, Nishi, Vincent and Malik have contributed to this Background Research and RQs task.
 
-* Vishekha: Added Content for Intriduction, Histrory & Mission and Goal
+* Vishekha: Added Content for Introduction, History & Mission and Goal
 * Nishi
 * Vincent
 * Malik
