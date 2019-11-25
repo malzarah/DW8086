@@ -11,13 +11,15 @@ Our Project is based on the Homestead National Monument Water Quality Monitoring
 
 ### Introduction
 
-
 Homestead National Monument of America (HOME) is a unit of National Park Service. [1]
 The National Monument first began part of the National Register of Historic places in the year 1966. [1]
 The National Monument 5 miles west of Beatrice, Gage County, and Nebraska. This site is now one among the most successfully claimed acres claimed under the Homestead Act. [1]
+
 HOME allowed qualified people to claim up to 160 acres of land owned by the federal government in exchange for five years of residence, cultivation and improving the property in every possible way. [1] Because of this act, approximately 270 million or 10% of total area of the United States was claimed and settled under this Act. This led to drastic changes in the land which was eventually needed. [3]
 The Homestead National Monument has a heritage center inside the park where visitors can learn more about the act and the organization by taking a tour of the interactive museum of American homesteading. [1]
+
 Homestead Act holds one of the greater significances for the westward expansion of the United States. It allowed a fair chance to any mankind to claim land for free in exchange for taking care of it keeping it free from contamination, persuading people to take the best care of it. [3]
+
 The Homestead Act brought far-reaching effects on the landscape and in the lives of the people.
 
 To raise concerns regarding water quality HOME monitored aquatic invertebrates which started in the year 1996. The quality of the water was measured against the following factors: -
@@ -26,11 +28,17 @@ temperature, dissolved oxygen, specific conductance, pH, turbidity, nitrate-nitr
 ### History and Mission
 
 Homestead Act has been one of the most important legislation in the United States. The very first Homestead was claimed in Brownville, Nebraska by a resident of Ohio name Daniel Freeman in the year 1863. He is the first homesteader in the nation. Daniel served more than 1000 acres and became one of the prominent residents of Gage County. He proposed the idea of memorizing the place he lived in, on his name. Soon after his death, the residents of Beatrice started the agenda of preserving his homestead as National park. Initially, the proposal got rejected by the officials but in the year 1934, the resident of Beatrice organized National Homestead Park Association to continue the deed as performed by The Daniel. [1]
+
 The Association could not do much due to funds issue and soon after America entered World War II the park visitation and development was suspended. [1]
+
 However, in the year 1950, the national park service (NPS) acquired the park and built the visitor center. Gradually there was some positive progress towards the development and in the year 1981, the National Monument had five permanent employees, one part-time and a few seasonal employees. [1]
+
 In the 1970s and 1980s seasonal rangers demonstrated the history of the Homestead Act. By the early 1990s, the Homestead Act began to move to other states in the country. [1]
+
 For an individual to be a homesteader the minimum age limit was 21 years to claim 160 acres of land. Settlers from different places including newly arrived immigrants, farmers without land of their own from the East, single women and formerly enslaved people worked to meet the challenge of "proving up" and keeping this "free land" and preserving it to its best for future. Each homesteader had lived on the land, built their home, making all the improvements and farming for 5 years before they were eligible to meet up the challenge "prove up". A filing fee of $18 was the only money required but sacrifice and hard work extracted a lot more price than was invested. [2]
+
 The Homestead Act remained in effect until 1976, with provisions for homesteading in Alaska until 1986. Alaska was one of the last places in the country where homesteading remained an option for homesteaders till late 1900s. The Taylor Grazing Act of 1934 substantially caused decrease in the amount of land available to homesteaders in the West. Because of which, successful Homestead claims dropped sharply after late 1990’s. [2]
+
 The Homestead Act of 1862 is recognized as one of the most revolutionary concepts for distributing public land in American history.  [2]
 The mission of the organization is to protect and preserve the cultural and natural resources of the National Park System. They also believe that it is our responsibility to protect the resources we have today for the next generation. The services extend with other collaborative partners to conserve the natural and cultural resources and recreating outdoor across the country. [2]
  
@@ -38,6 +46,7 @@ The mission of the organization is to protect and preserve the cultural and natu
 ### Goals
 
 The goal of the entire Homestead Act is providing free land to people in exchange for asking them to cultivate the land to its best. This agenda helped both mankind and the resources around us. People received land for free to live in and at the same time our natural resources, our land, and water habitats were protected from further contamination. So many families and immigrants flooded more than 10 percent of the land in the US to achieve the ultimate Homestead goal and fulfill the American dream. The goal is to achieve a diverse settlement, agricultural benefits and huge advancement in the field of agriculture. Building nature, renewing our resources to the best for mankind and future generations to live in. [3]
+
 To address concerns about water quality for the sites in Homestead National Monument of America (HOME), the team started monitoring the quality of water against various factors. Most quality measurements met state standards and were found to be generally consistent and typical for the streams belonging to the region. However, there were some measurements that exceeded the acceptance level. The main goal of this was to monitor the water quality and deduce what factors are affecting the water quality of the targeted site. Also, the measures that could be undertaken to address the problems affecting the quality of the streams of the targeted sites. [2]
 
 ## The Research Questions
