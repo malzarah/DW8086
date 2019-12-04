@@ -125,7 +125,7 @@ College of Agriculture and Life Sciences. Retrieved from https://extension.arizo
 * Vishekha, Nishi, Vincent and Malik have contributed to this Background Research and RQs task.
 
 * Vishekha: Created Markdown Document and Added Content for Introduction, History & Mission and Goal
-* Nishi
+* Nishi: Added content for the kind of decisions, interventions, or actions that analysis results could support and added the research questions.
 * Vincent
 * Malik
 
