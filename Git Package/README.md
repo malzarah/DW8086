@@ -7,8 +7,8 @@
 
 ### **Overview of Contents**
 * [HTML Document with R Scripts and R Plots]()
-* [R Code for Analysis and Plots]()
+* [R Code for Analysis and Plots](https://github.com/datawizard8086/DW8086/tree/master/Git%20Package/R%20code%20for%20Analysis%20and%20Plots)
 * [Audience Profile](https://github.com/datawizard8086/DW8086/tree/master/Git%20Package/Audience%20Profile)
-* [Project Summary Report]()
+* [Project Summary Report](https://github.com/datawizard8086/DW8086/tree/master/Git%20Package/Project%20Summary%20Report)
 * [Project Presentation]()
-* [Contributorship Statement]()
+* [Contributorship Summary](https://github.com/datawizard8086/DW8086/tree/master/Git%20Package/Contributorship%20Summary)
