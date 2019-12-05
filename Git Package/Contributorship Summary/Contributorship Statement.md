@@ -94,7 +94,7 @@ The workplan below provides details of what task will be done by which team memb
 |Submit GIT Repository Package  |       Vincent                | December 12th |
 
 
-### _**Contributorship Statement**_
+### **Contributorship Statement**
 * Vishekha, Nishi, Vincent and Malik have contributed to this Project Work Plan task. 
 
 
