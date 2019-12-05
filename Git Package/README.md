@@ -10,6 +10,6 @@
 * [HTML Document with R Scripts and R Plots]()
 * [R Code for Analysis and Plots]()
 * [Audience Profile]()
-* [Summary of the Project]()
+* [Project Summary Report]()
 * [Project Presentation]()
 * [Contributorship Statement]()
