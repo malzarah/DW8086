@@ -1,0 +1,182 @@
+---
+title: "Homestead Water Quality Data Cleaning"
+author: "Data Wizard"
+date: "10/24/2019"
+knit: (function(input_file, encoding) {
+  out_dir <- 'docs';
+  rmarkdown::render(input_file,
+ encoding=encoding,
+ output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Data Cleaning Documentation
+
+## Overview
+
+As per our data research questions, we have filtered our dataset from the year 2013 to the year 2017. We could see how the water quality between the two sites changes in these 5 years. We have removed some unnecessary columns and rows to ensure the rationality about the data cleaning. We have combined the day, month, and year column into a single column named Date. We have simplified the column name to make it easier to use. Additionally, we have filled the mean value for temperature in the missing location as the temperature will not vary too much for a given season.  In the column ObservationSite, same name has written in different patterns, so we changed it into single pattern (north -> North, west -> West). Also, we have converted all decimal values to 2 decimal points so that it will be easier to read and use the data.
+
+
+## Instructions
+
+First in the R file we read the Excel file, you need to change the path to match up with the directory where the excel file is located.
+Change the Path, next we filter for the year 2012 and 2018. Third step unnecessary columns are removed. Fourth step all header names are renamed to remain consistent.
+Finally, once the data set has all the necessary fields, we need some rows which have NV value they are replaced with NA.  Few values are converted to numeric and using the
+write.csv command we store the file in CSV format.
+
+For Replication:
+Please download this R file and change the path for the excel sheet and after running the R code we can get the revised dataset which is cleaned and can be used for further analysis.
+
+## Data Set Description
+
+The Homestead National Monument of America (HOME), which is a unit of the National Park System, commemorates passage of the Homestead Act of 1862. Through this act, any qualified person can claim up to 160 acres of federally owned land in exchange for five years of residence and a promise to cultivate and take proper care of the land.
+
+HOME's another initiative is to invite students or any other group of people wanting to participate, monitoring water quality in the park. We received data set from our client Jesse Bolli, Resource Management Specialist at HOME, where observations were recorded regarding water quality in the park.
+
+The data set consist of 1061 rows and 53 columns. Data set includes data regarding water quality such as Precipitation Current Day, Water Temperature, pH level of the water, Conductivity, Turbidity, Nitrates, Total Phosphate, Alkalinity Average etc. The data set has observations that were recorded from the year 2002 till 2016.
+
+## Policy Constraints 
+
+The Homestead National Monument water quality project is an open project intended for public use. We have invited the Beatrice Middle School's students to study the water quality of cub creek. These data can be used for the data analysis but should not be used for commercializing and any means of business. The main intention of this project to maintain the quality of water and analyze the problems if it's there and provide a better decision for a better future and cultivation.
+
+## Metadata Description
+The Dataset that we our using for our project analysis, all the observations were recorded while monitoring the water quality against various contents found in water during the event. Dataset includes variables such as Precipitation Current Day, Water Temperature, pH level of the water, Conductivity, Turbidity, Nitrates, Total Phosphate, Alkalinity Average etc. The data set has observations that were recorded from the year 2002 till 2017.
+As a part of data cleaning process, we selected observations that were recorded from the year 2013 till 2017.To monitor the quality of water, following factors were measured:
+temperature of the water, pH level, conductivity, level of dissolved Oxygen found in water, content of Nitrates, phosphates, average of alkalinity, volume of sand, slit, gravel, etc., found in water. Each observation was made at a site on a specific date of the month and year. The degree of measure of each variable is well described in the data set for instance the level of sand, slit and gravel was measured in percentage. While the level of Nitrates, Phosphates, Total Sulphates, etc. were found in mg/L.
+The observations included in the dataset provides us with enough information to speculate the quality of water over the period of five years that is from 2013 till 2017 inclusively.
+
+
+## Issues with the Data Set
+
+Following are the issues that were observed in the data set provided by the stakeholder:
+* There are three separate columns for a date (Day, Month, Year).
+* Unnecessary rows and columns are there.
+* Rows with missing values or no values.
+* Same name has written in different patterns in the column ObservationSite.
+* Columns that were supposed to hold numeric values just like other rows in the column but holds value such as NV instead of   NULL or be an empty cell.
+* Number of Decimal places of decimal values is not uniformed along the dataset.
+
+## Description of steps undertaken by the team to resolve the issues with Data set
+
+As per our data research questions, we have filtered our dataset from the year 2013 to the year 2017. We could see how the water quality between the two sites changes in these 5 years. We have removed some unnecessary columns and rows to ensure the rationality about the data cleaning. We have combined the day, month, and year column into a single column named Date. We have simplified the column name to make it easier to use. Additionally, we have filled the mean value for temperature in the missing location as the temperature will not vary too much for a given season. In the column ObservationSite, same name has written in different patterns, so we changed it into single pattern (north -> North, west -> West). Also, we have converted all decimal values to two decimal points so that it will be easier to read and use the data.
+
+These are the preliminary steps to create MasterWaterQualityEntryAdded.xlsx:  
+- Filled in Temperature and Precipitation by using extra spreadsheets from Jesse  
+- Calculated the mean for pH, Conductivity, and DissolvedOxygen columns  
+- Filled empty cells of pH, Conductivity, and Dissolved columns with the calculated means
+
+
+## R script File
+
+* [HTML Script File](https://github.com/datawizard8086/DW8086/blob/master/Data%20Cleaning%20Task/DataWizardDataCleaning.html)
+
+
+## R source code  
+
+```install.packages("readxl")
+library("readxl")
+
+##Import csv file, skip the first 2 rows, and use the 3rd row as header
+my_data<-read_excel("C:/Users/hatha/Desktop/DataExploration/MasterWaterQualityEntryAdded.xlsx",sheet="Sheet1", skip = 2,col_types =NULL ,col_names = TRUE)
+
+##Remove the first row since it is a unit row
+dataset <- my_data [-c (1),]
+
+##Filter 2013-2017 data
+newdata1<- subset(dataset,dataset$Year>2012 & dataset$Year<2018)
+
+##Combine Day, Month, & Year columns into Date column
+newdata1$Date <- as.Date(with(newdata1, paste(Year, Month, Day,sep="-")), "%Y-%m-%d")
+
+##Remove unnecessary columns
+newdata2<-newdata1[,c(4,5,6,8,10,11,12,13,17,24,25,46,47,50,53)]
+
+##Rename header names
+names (newdata2)[2]<- "ObservationSite"
+names (newdata2)[3]<- "TempF"
+names (newdata2)[4]<- "Precipitation"
+names (newdata2)[5]<- "WaterTemp"
+names (newdata2)[8]<- "DissolvedOxygen"
+names (newdata2)[10]<- "FloatAverage"
+names (newdata2)[13]<- "Phosphates"
+names (newdata2)[14]<- "Sulfate"
+names (newdata2)[15]<- "Alkalinity"
+
+
+##Capitalized first letter in observation site
+
+capFirst<- function(s){
+  + paste(toupper(substring(s, 1, 1)), substring(s, 2), sep = "")
+  + }
+newdata2$ObservationSite<-capFirst(newdata2$ObservationSite)
+
+
+##Replaced NA with the mean value of Water temp
+
+data1<-newdata2
+data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
+data1$WaterTemp[which(is.na(data1$WaterTemp))]<-mean(data1$WaterTemp,na.rm= TRUE)
+
+data1<-newdata2
+data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
+data1$WaterTemp[which(is.na(data1$WaterTemp))]<-mean(data1$WaterTemp,na.rm= TRUE)
+
+##Convert the data in numeric form and upto 2 decimal points
+data1$WaterTemp= as.numeric(as.character(data1$WaterTemp))
+data1$WaterTemp<-round(data1$WaterTemp,2)
+
+data1$TempF=as.numeric(as.character(data1$TempF))
+data1$TempF<-round(data1$TempF,2)
+
+data1$Precipitation=as.numeric(as.character(data1$Precipitation))
+data1$Precipitation<-round(data1$Precipitation,2)
+
+data1$pH=as.numeric(as.character(data1$pH))
+data1$pH<-round(data1$pH,2)
+
+data1$Conductivity=as.numeric(as.character(data1$Conductivity))
+data1$Conductivity<-round(data1$Conductivity,2)
+
+data1$DissolvedOxygen=as.numeric(as.character(data1$DissolvedOxygen))
+data1$DissolvedOxygen<-round(data1$DissolvedOxygen,2)
+
+data1$Turbidity=as.numeric(as.character(data1$Turbidity))
+data1$Turbidity<-round(data1$Turbidity,2)
+
+data1$FloatAverage=as.numeric(as.character(data1$FloatAverage))
+data1$FloatAverage<-round(data1$FloatAverage,2)
+
+data1$Velocity=as.numeric(as.character(data1$Velocity))
+data1$Velocity<-round(data1$Velocity,2)
+
+data1$Nitrates=as.numeric(as.character(data1$Nitrates))
+data1$Nitrates<-round(data1$Nitrates,2)
+
+data1$Phosphates=as.numeric(as.character(data1$Phosphates))
+data1$Phosphates<-round(data1$Phosphates,2)
+
+data1$Sulfate=as.numeric(as.character(data1$Sulfate))
+data1$Sulfate<-round(data1$Sulfate,2)
+
+data1$Alkalinity=as.numeric(as.character(data1$Alkalinity))
+data1$Alkalinity<-round(data1$Alkalinity,2)
+
+##Write Function
+write.csv(data1,"C:/Users/hatha/Desktop/DataExploration/reviseddata.csv")
+```
+
+
+
+## Next step
+
+For next step, we will apply this same data cleaning processes for the data from 2002 to 2012. Furthermore, we will reach out to Jesse to see if he has extra data about the turbidity, float average, nitrates, phosphates, alkalinity.
+
+## Contributorship statement
+Malik, Nishi, Vincent and Vishekha have contributed to the Data Cleaning and Documentation task.
+
+
+### ProofReader statement
+Nishi Mahato is the proofreader of this document.
+
