@@ -6,7 +6,7 @@
 * **Repository License Type:** **GNU General Public License v3.0** [Refer to License file within repository for more information](https://github.com/datawizard8086/DW8086/blob/master/LICENSE)
 
 ### **Overview of Contents**
-* Background Research & Research Question
+* Background Research & Research Questions
 * Data Cleaning Documentation
 * HTML Document for R scripts and R Plots
 * R Code for Analysis and Plots
