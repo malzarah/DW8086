@@ -45,7 +45,7 @@ The Contributorship Summary below provides details of the tasks done by each whi
 ### R Script
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
-|R script agenda|  Team           | October 26th|
+|R Script Agenda|  Team           | October 26th|
 |Create R Script for Analysis of pH level of water with respect to dissolved oxygen and alkalinity for North and West site	|  Vishekha              |   November 3rd |	
 |Create R Script for Analysis of correlation between pH and E.Coli		|  Nishi              |   November 3rd |	
 |Create R Script for Analysis of correlation between Turbidity and Conductivity	|  Vincent              |   November 3rd |	
@@ -77,24 +77,22 @@ The Contributorship Summary below provides details of the tasks done by each whi
 |Task 2| Nishi        | December 2nd |	
 |Task 3| Malik        | December 2nd |	
 |Task 4| Vincent        | December 2nd |	
-|Presentation Proofreader   | Vincent | December 11th |
-|Presentation deliverable| Nishi| December 11th|
+|Presentation Proofreader   | Nishi | December 11th |
+|Presentation deliverable| Vincent| December 11th|
 |Project Presentation                   |    Team               | December 12th |
 
 
 ### GIT Repository Package
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
-|Create Team Project final Git package container	       |  Vishekha                | December 5th            |	
+|Create Team Project final git package container	       |  Vishekha                | December 5th            |	
 |Create Git Package readme.md	       | Vishekha         | December 5th  |
 |Update Audience Profile as per Professor's Feedback       | Team         | December 5th |
 |Update Background Research and Research Questions as per Professor's Feedback       | Team         | December 5th |
 |Update R Script and R plots as per Professor's Feedback       | Team         | December 5th |
-|Update readme.md		 | Vishekha   | December 5th |
-|Create GIT Package		| Vishekha |December 5th |
 |Project Contributorship Summary       |Vishekha	| December 5th |
-|Project Presentation Proofreader	  |Nishi    |December 11th |
-|Submit GIT Repository Package  |       Vincent                | December 12th |
+|Final Git Package Proofreader	  |Vishekha    |December 11th |
+|Submit GIT Repository Package  |       Nishi                | December 12th |
 
 
 ### Tool Used for Communication Among Team Members
