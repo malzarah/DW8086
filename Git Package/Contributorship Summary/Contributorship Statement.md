@@ -1,8 +1,8 @@
 # Project Name: Homestead National Monument
 
 
-## Project Work Plan
-The workplan below provides details of what task will be done by which team member within the deadline set for each deliverable.
+## Contributorship Summary
+The Contributorship Summary below provides details of the tasks done by each which team member within the deadline set for each of the deliverable.
 
 
 ### Background Research & RQ
@@ -46,10 +46,11 @@ The workplan below provides details of what task will be done by which team memb
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
 |R script agenda|  Team           | October 26th|
-|Create R Script		|  Team              |   November 3rd |	
-|Create full description of the R Script	|	Team  | November 4th |
-|R Script Contributor statement	|Team	| November 5th|
-|Create R Script document for deliverable and push it to Git           |   Vincent                |November 6th |
+|Create R Script for Analysis of pH level of water with respect to dissolved oxygen and alkalinity for North and West site	|  Vishekha              |   November 3rd |	
+|Create R Script for Analysis of correlation between pH and E.Coli		|  Nishi              |   November 3rd |	
+|Create R Script for Analysis of correlation between Turbidity and Conductivity	|  Vincent              |   November 3rd |	
+|Create Rmd File for deliverable and push it to Git           |   Vishekha                |November 6th |
+|Create knitted HTML document for deliverable and push it to Git           |   Vincent                |November 6th |
 |Submit R Script deliverable URL on Canvas            |   Vincent                |November 6th |
 |R Script Proofreader	| Malik  | November 6th |
 
