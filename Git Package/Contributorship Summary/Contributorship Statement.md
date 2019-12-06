@@ -59,10 +59,11 @@ The Contributorship Summary below provides details of the tasks done by each whi
 |**Tasks**	                               |**Contributor**   |**Completion Date**|
 |----------------------------------------------|:----------------:|---------------|
 |R Plots agenda		| Team | November 9th |
-|Create R Plots		| Team |    November 10th |
-|Create full description of the R Plots script |   Team               |   November 12th            |
-|R Plots Contributors statements	               |Team	| November 13th |
-|Create R Plot deliverable document and push it to Git |   Nishi                | November 13th |
+|Create R Plots	for differences of Turbidity/Conductivity between the North and West sites	| Vincent |    November 10th |
+|Create R Plots	for variables Dissolved Oxygen, Alkanility and pH level of water for North and West Site checking distribution and outliers	| Vishekha |    November 10th |
+|Create Ggplot of variable pH  and Ecoli for North and West sites	| Nishi |    November 10th |
+|Create Rmd document and push it to Git |   Vishekha                | November 13th |
+|Create knitted HTML document and push it to Git |   Vincent                | November 13th |
 |Submit R Plot deliverable URL on Canvas                    |  Nishi                | November 13th |
 |R Plots Proofreader	|Vishekha | November 13th |
 
@@ -70,9 +71,12 @@ The Contributorship Summary below provides details of the tasks done by each whi
 ### Project Presentation
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
-|Presentation agenda     |    Team              |   December 1st            |		
-|Create presentation deck	| Vishekha        | December 2nd |	
-|Presentation Contributor statement	|Team	   | December 11th|
+|Presentation Agenda     |    Team              |   December 1st            |		
+|Create presentation deck	| Vishekha        | December 2nd |
+|Task 1| Vishekha        | December 2nd |	
+|Task 2| Nishi        | December 2nd |	
+|Task 3| Malik        | December 2nd |	
+|Task 4| Vincent        | December 2nd |	
 |Presentation Proofreader   | Vincent | December 11th |
 |Presentation deliverable| Nishi| December 11th|
 |Project Presentation                   |    Team               | December 12th |
@@ -81,17 +85,15 @@ The Contributorship Summary below provides details of the tasks done by each whi
 ### GIT Repository Package
 |**Tasks**	                       |**Contributor**   |**Completion Date**|
 |--------------------------------------|:----------------:|---------------|
-|Create Team Project Git Repository	       |  Vishekha                | September 17             |	
-|Create Project readme.md	       | Vishekha         | September 17 |
-|Determine Project Plan		       | Team              | September 17  |
-|Create Project Work Plan Markdown document      | Vishekha            | September 18  |
-|Project Work Plan Proofreader 	       | Vishekha             | September 18  |
-|Submit Project Work Plan URL on Canvas              | Vishekha         | September 19  |
-|Review components of GIT Package     |Team		|December 9th |
-|Update readme.md		 | Nishi   | December 10th |
-|Create GIT Package		| Vincent |December 11th |
-|Project Contributor statement       |Team	| December 11th |
-|Project readme.md Proofreader	  |Vishekha    |December 11th |
+|Create Team Project final Git package container	       |  Vishekha                | December 5th            |	
+|Create Git Package readme.md	       | Vishekha         | December 5th  |
+|Update Audience Profile as per Professor's Feedback       | Team         | December 5th |
+|Update Background Research and Research Questions as per Professor's Feedback       | Team         | December 5th |
+|Update R Script and R plots as per Professor's Feedback       | Team         | December 5th |
+|Update readme.md		 | Vishekha   | December 5th |
+|Create GIT Package		| Vishekha |December 5th |
+|Project Contributorship Summary       |Vishekha	| December 5th |
+|Project Presentation Proofreader	  |Nishi    |December 11th |
 |Submit GIT Repository Package  |       Vincent                | December 12th |
 
 
