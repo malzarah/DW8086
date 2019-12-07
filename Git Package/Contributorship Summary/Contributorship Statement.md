@@ -37,6 +37,7 @@ The Contributorship Summary below provides details of the tasks done by each whi
 |Documenting steps taken to remediate data	| Vincent and Malik | October 20th|
 |Documenting Data Cleaning process| Vincent and Malik | October 21st |		
 |Data Cleaning Contributor statement	|Team	          | October 22nd              |
+|Create R markdown and HTML | Vincent| October 23rd|
 |Create Data Cleaning Markdown document for the deliverable and push it to Git| Vishekha                |October 23rd|
 |Submit Data Cleaning deliverable URL on Canvas |    Vishekha              |  October 23rd             	
 |Proofreader		| Nishi | October 23rd |
