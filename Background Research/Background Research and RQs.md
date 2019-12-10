@@ -50,16 +50,12 @@ The goal of the entire Homestead Act is providing free land to people in exchang
 To address concerns about water quality for the sites in Homestead National Monument of America (HOME), the team started monitoring the quality of water against various factors. Most quality measurements met state standards and were found to be generally consistent and typical for the streams belonging to the region. However, there were some measurements that exceeded the acceptance level. The main goal of this was to monitor the water quality and deduce what factors are affecting the water quality of the targeted site. Also, the measures that could be undertaken to address the problems affecting the quality of the streams of the targeted sites. [2]
 
 ## The Research Questions
- * Does season or temperature affect the amount of E.coli? (Winter vs. summer?)  
- * Does precipitation affect the amount of E.coli? (Sewage water?)  
- * Does precipitation (rainy season) affect the pH level? (Acid rain? Water flowing from the street?)  
- * Does precipitation affect water conductivity? (Pollution water flowing in?)  
- * What factors affect water quality the most? (Solved using Multiple Regression approach)  
- * What models can we try to find the relationship between water quality and other parameters in the given dataset?  
- * What parameters are dependent and which ones are independent?  
- * Does time (HH:MM: SS) affect Float test 1 to float test 5?  
- * Could you please clarify about the sites NEGP and WGP? What does it stand for and how water flows in these four sites north, west, NEGP, and WGP?  
 
+ * Does precipitation affect the amount of E.coli for North Site and West Site?  
+ * How E.coli variable varied in North Site and West Site from the year 2013 till 2017? 
+ * Does turbidity and conductivity varies in North Site and West Site?
+ * What factors(Dissolved Oxygen and Alkanility) affect pH level of water in North Site and West Site?
+ 
 ## The Study Organism and Phenomenon
 Water is essential to all life on Earth. In fact, “about 71 percent of the Earth's surface is water-covered, and the oceans hold about 96.5 percent of all Earth's water” [4]. However, freshwater only contributes to a tiny fraction of that amount. Additionally, freshwater supports most living things on Earth which makes it extremely important to keep the source of life safe and clean.
 
@@ -126,8 +122,8 @@ College of Agriculture and Life Sciences. Retrieved from https://extension.arizo
 
 * Vishekha: Created Markdown Document and Added Content for Introduction, History & Mission and Goal
 * Nishi: Added content for the kind of decisions, interventions, or actions that analysis results could support and added few research questions.
-* Vincent
-* Malik
+* Vincent:
+* Malik:
 
 ## ProofReader statement
 Vishekha Tamrakar is the proofreader of this document.
