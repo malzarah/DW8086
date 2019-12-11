@@ -353,15 +353,15 @@ aov(siteData$North$pH ~ siteData$North$`E. coli`, data =siteData$North )
 ```
 ## Contributorship statement
 Malik, Nishi, Vincent and Vishekha have contributed to the R scripts:
- **Malik**    - Proofreading  
- **Nishi**    - R scripts for the analysis of correlation between pH and E.Coli  
- **Vincent**  - R scripts for the analysis of correlation between Turbidity and Conductivity. Create Knitted HTML  
+ * Malik   - Proofreading  
+ * Nishi  - R scripts for the analysis of correlation between pH and E.Coli  
+ * Vincent - R scripts for the analysis of correlation between Turbidity and Conductivity. Create Knitted HTML  
             
- **Vishekha** - R scripts for the analysis of pH level of water with respect to dissolved oxygen and alkalinity on the North and West sites.Create R markdown 
+ * Vishekha  - R scripts for the analysis of pH level of water with respect to dissolved oxygen and alkalinity on the North and West sites.Create R markdown 
  
 
 ### ProofReader statement
-Malik Malzarah is the proofreader of this document.  
+ * Malik Malzarah is the proofreader of this document.  
 
 
 
